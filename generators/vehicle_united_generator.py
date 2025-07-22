@@ -129,9 +129,9 @@ class VehicleUnitedGenerator(BaseGenerator):
             },
             "agentDetails": [
                 {
-                    "name": self._pick_example_or_faker("response.data.vehicleUnitedDetail.agentDetails.name", lambda: random.choice(["הפניקס SMART", "מגדל ביטוח", "כלל ביטוח", "הראל ביטוח"])),
-                    "address": f"{self.faker.street_address()}, {self.faker.city()} {random.randint(10000, 99999)}",
-                    "phone": f"0{random.randint(70, 79)}{random.randint(1000000, 9999999)}"
+                    "name": "הפניקס SMART",
+                    "address": "דרך השלום 53 גבעתיים 53454",
+                    "phone": "0778888888"
                 }
             ],
             "authorizedDrivers": [

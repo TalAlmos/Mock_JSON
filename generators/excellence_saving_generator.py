@@ -75,6 +75,26 @@ class ExcellenceSavingGenerator(BaseGenerator):
 
     def _generate_account_transactions(self, dates):
         years = ["2025", "2024", "2023", "2022"]
+        # Mapping from title to subTitle
+        title_subtitle_map = {
+            "יתרה לתחילת שנה": "יתרת כספים בקופה בתחילת השנה",
+            "הפקדות": "כספים שהופקדו לקופה",
+            "רווחים": "בניכוי הוצאות לניהול השקעות",
+            "דמי ניהול": "שנגבו בשנה זאת",
+            "הפסדים": "בניכוי הוצאות לניהול השקעות"
+        }
+        def get_subtitle(title):
+            if title.startswith("יתרה לתאריך"):
+                return None
+            return title_subtitle_map.get(title)
+        possible_titles = [
+            "יתרה לתחילת שנה",
+            "הפקדות",
+            "רווחים",
+            "דמי ניהול",
+            "יתרה לתאריך {}".format(dates["date"]),
+            "הפסדים"
+        ]
         return {
             "updateDate": dates["date"],
             "totalSum": {"value": random.randint(1000, 20000), "currency": "₪"},
@@ -86,15 +106,33 @@ class ExcellenceSavingGenerator(BaseGenerator):
                     "year": year,
                     "updateDate": dates["date"],
                     "list": [
-                        {
-                            "title": self._pick_example_or_faker("response.accountTransactions.list.list.title", lambda: random.choice(["יתרה לתחילת שנה", "הפקדות", "רווחים", "דמי ניהול", f"יתרה לתאריך {dates['date']}"])),
-                            "subTitle": self.faker.sentence() if random.choice([True, False]) else None,
-                            "sum": {"value": random.randint(-200, 20000), "currency": "₪"} if random.choice([True, False]) else None
-                        } for _ in range(random.randint(3, 6))
+                        self._generate_account_transaction_item(title, dates)
+                        for title in possible_titles
                     ]
                 } for year in years
             ]
         }
+
+    def _generate_account_transaction_item(self, title, dates):
+        item = {
+            "title": title,
+            "sum": {"value": random.randint(-200, 20000), "currency": "₪"} if random.choice([True, False]) else None
+        }
+        # Set subTitle only if mapping exists and not יתרה לתאריך ...
+        if title.startswith("יתרה לתאריך"):
+            pass  # Do not include subTitle
+        else:
+            title_subtitle_map = {
+                "יתרה לתחילת שנה": "יתרת כספים בקופה בתחילת השנה",
+                "הפקדות": "כספים שהופקדו לקופה",
+                "רווחים": "בניכוי הוצאות לניהול השקעות",
+                "דמי ניהול": "שנגבו בשנה זאת",
+                "הפסדים": "בניכוי הוצאות לניהול השקעות"
+            }
+            sub_title = title_subtitle_map.get(title)
+            if sub_title:
+                item["subTitle"] = sub_title
+        return item
 
     def _generate_deposits(self, dates):
         years = ["2025", "2024", "2023", "2022"]

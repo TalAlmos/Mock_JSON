@@ -8,6 +8,32 @@ from example_analyzer import analyze_examples, summarize_examples
 import glob
 import os
 import yaml
+import random
+
+
+def get_output_path(insurance_type, output_file=None):
+    base_dir = os.path.join("data", "mock_output", insurance_type)
+    os.makedirs(base_dir, exist_ok=True)
+    if output_file:
+        filename = os.path.basename(output_file)
+    else:
+        filename = "mock.json"
+    return os.path.join(base_dir, filename)
+
+
+def save_records_separately(records, insurance_type):
+    base_dir = os.path.join("data", "mock_output", insurance_type)
+    os.makedirs(base_dir, exist_ok=True)
+    filenames = []
+    for record in records:
+        # Generate a unique 9-digit ID
+        file_id = str(random.randint(100000000, 999999999))
+        file_path = os.path.join(base_dir, f"{file_id}.json")
+        with open(file_path, "w", encoding="utf-8") as f:
+            import json
+            json.dump(record, f, ensure_ascii=False, indent=2)
+        filenames.append(file_path)
+    return filenames
 
 
 def interactive_menu():
@@ -46,7 +72,8 @@ def interactive_menu():
                 continue
             num_records = input("How many records to generate? (default 5): ").strip()
             num_records = int(num_records) if num_records.isdigit() else 5
-            output_file = input("Output file (leave blank to print to screen): ").strip()
+            output_file = input("Output file (leave blank for default): ").strip()
+            separate_files = input("Save each record in a separate file with a 9-digit ID? (y/n): ").strip().lower() == "y"
             command = GenerateCommand(insurance_type, num_records)
             try:
                 records = command.execute(context)
@@ -54,12 +81,14 @@ def interactive_menu():
                 print(f"Error: {e}")
                 continue
             import json
-            if output_file:
-                with open(output_file, "w", encoding="utf-8") as f:
-                    json.dump(records, f, ensure_ascii=False, indent=2)
-                print(f"Generated records saved to {output_file}")
+            if separate_files:
+                filenames = save_records_separately(records, insurance_type)
+                print(f"Saved {len(filenames)} records to {os.path.join('data', 'mock_output', insurance_type)}/ as separate files.")
             else:
-                print(json.dumps(records, ensure_ascii=False, indent=2))
+                output_path = get_output_path(insurance_type, output_file if output_file else None)
+                with open(output_path, "w", encoding="utf-8") as f:
+                    json.dump(records, f, ensure_ascii=False, indent=2)
+                print(f"Generated records saved to {output_path}")
         elif choice == "2":
             types_command = ListTypesCommand()
             types = types_command.execute(context)
@@ -123,6 +152,7 @@ def main():
     parser.add_argument("--num-records", type=int, default=5, help="Number of records to generate")
     parser.add_argument("--list-types", action="store_true", help="List available insurance types")
     parser.add_argument("--output", type=str, help="Output file to save generated records (optional)")
+    parser.add_argument("--separate-files", action="store_true", help="Save each record in a separate file named with a 9-digit ID")
     # Preserve fields CLI options
     parser.add_argument("--list-preserve-fields", action="store_true", help="List current preserve fields")
     parser.add_argument("--add-preserve-field", type=str, help="Add a field to preserve fields list")
@@ -217,14 +247,15 @@ def main():
         except Exception as e:
             print(f"Error: {e}")
             return
-        if args.output:
-            import json
-            with open(args.output, "w", encoding="utf-8") as f:
-                json.dump(records, f, ensure_ascii=False, indent=2)
-            print(f"Generated records saved to {args.output}")
+        import json
+        if args.separate_files:
+            filenames = save_records_separately(records, args.type)
+            print(f"Saved {len(filenames)} records to data/mock_output/{args.type}/ as separate files.")
         else:
-            import json
-            print(json.dumps(records, ensure_ascii=False, indent=2))
+            output_path = get_output_path(args.type, args.output if args.output else None)
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(records, f, ensure_ascii=False, indent=2)
+            print(f"Generated records saved to {output_path}")
         return
 
     parser.print_help()
