@@ -12,6 +12,10 @@ from config import Config
 from generators.base_generator import BaseGenerator
 from generators.registry import GeneratorRegistry
 from generators.insurance_generator import InsuranceGenerator
+from generators.travel_insurance_generator import TravelInsuranceGenerator
+from generators.vehicle_united_generator import VehicleUnitedGenerator
+from generators.mymoney_generator import MyMoneyGenerator
+from generators.excellence_saving_generator import ExcellenceSavingGenerator
 from exceptions import InsuranceTypeNotFoundError, GeneratorError
 
 
@@ -23,21 +27,25 @@ class GeneratorFactory:
     insurance types using the factory pattern with dependency injection.
     """
     
-    def __init__(self, config: Config):
+    def __init__(self, config: Config, field_profiles=None):
         """
         Initialize the factory with configuration.
         
         Args:
             config: Configuration instance with paths and settings
+            field_profiles: Optional dict of field profiles for example-driven generation
         """
         self.config = config
+        self.field_profiles = field_profiles or {}
         self.registry = GeneratorRegistry()
         self._register_generators()
     
     def _register_generators(self) -> None:
         """Register all available generators in the registry."""
-        # Register the base insurance generator
-        self.registry.register("insurance", InsuranceGenerator)
+        self.registry.register("MyMoneyResponse", MyMoneyGenerator)
+        self.registry.register("ActiveInsurancesWithVehicleUnitedResponse", VehicleUnitedGenerator)
+        self.registry.register("ExcellenceSavingByNumResponse", ExcellenceSavingGenerator)
+        self.registry.register("travel", TravelInsuranceGenerator)
         
         # TODO: Register specific insurance type generators as they are created
         # self.registry.register("travel", TravelGenerator)
@@ -69,7 +77,7 @@ class GeneratorFactory:
         faker = Faker(['he_IL'])
         
         # Create and return the generator instance
-        return generator_class(faker, self.config)
+        return generator_class(faker, self.config, self.field_profiles)
     
     def get_available_types(self) -> list:
         """

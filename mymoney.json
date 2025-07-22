@@ -1,0 +1,23 @@
+[
+  {
+    "insurance_type": "MyMoneyResponse",
+    "policy_id": "POL-552405",
+    "start_date": "1974-11-20",
+    "end_date": "2000-04-13",
+    "status": "active"
+  },
+  {
+    "insurance_type": "MyMoneyResponse",
+    "policy_id": "POL-452026",
+    "start_date": "2012-11-03",
+    "end_date": "2023-02-03",
+    "status": "active"
+  },
+  {
+    "insurance_type": "MyMoneyResponse",
+    "policy_id": "POL-484396",
+    "start_date": "1971-11-08",
+    "end_date": "1985-06-17",
+    "status": "active"
+  }
+]

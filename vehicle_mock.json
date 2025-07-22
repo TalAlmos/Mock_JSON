@@ -1,0 +1,742 @@
+[
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "14.04.25",
+        "startDate": "14.04.25",
+        "endDate": "13.04.26",
+        "originalEndDate": "2026-04-13T00:00:00",
+        "originalStartDate": "2025-04-14T00:00:00",
+        "premia": {
+          "value": 1135,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "14.04.25",
+            "endDate": "13.04.26",
+            "policySubType": "hova",
+            "premia": {
+              "currency": "₪",
+              "value": 3590
+            },
+            "claimsList": [
+              {
+                "claimNo": "5042442057",
+                "submissionDate": "14.04.25"
+              }
+            ]
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 2475,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 2707,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "14/04/2025",
+              "method": "אשראי 7659",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 621,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "14/04/2025",
+                  "method": "תשלום בכרטיס אשראי",
+                  "totalPayments": "",
+                  "policySubType": "gimel",
+                  "amount": {
+                    "value": 274,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "כלל ביטוח",
+          "address": "סמ השחף 10, גיתית 70487",
+          "phone": "0757041004"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "מוחמד",
+          "lastName": "יחזקאל"
+        },
+        {
+          "firstName": "רחל",
+          "lastName": "בן חמו"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "13.04.26",
+      "youngerDriverAge": "48"
+    },
+    "insuranceType": "ביטוח מפני אחריות מעבידים",
+    "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+    "licensePlate": "87952762",
+    "isExpired": false,
+    "isActive": true,
+    "list": [
+      {
+        "policyId": "POL-417132",
+        "insuranceType": "ביטוח חובה",
+        "policyName": "ביטוח חובה לרכב פרטי",
+        "endDate": "13.04.2026",
+        "startDate": "14.04.2025",
+        "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+        "licensePlate": "87952762",
+        "classification": "אישי",
+        "carPolicyType": "makif",
+        "isExpired": false,
+        "isActive": true,
+        "sectorId": "635",
+        "validityTime": "14.04.2025",
+        "isSmart": true,
+        "AgentNumber": 56132
+      },
+      {
+        "policyId": "POL-173369",
+        "insuranceType": "ביטוח חובה",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "13.04.2026",
+        "startDate": "14.04.2025",
+        "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+        "licensePlate": "87952762",
+        "classification": "אישי",
+        "carPolicyType": "makif",
+        "isExpired": false,
+        "isActive": false,
+        "sectorId": "401",
+        "validityTime": "14.04.2025",
+        "isSmart": false,
+        "AgentNumber": 29207
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  },
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "25.01.25",
+        "startDate": "25.01.25",
+        "endDate": "24.01.26",
+        "originalEndDate": "2026-01-24T00:00:00",
+        "originalStartDate": "2025-01-25T00:00:00",
+        "premia": {
+          "value": 3529,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "25.01.25",
+            "endDate": "24.01.26",
+            "policySubType": "makif",
+            "premia": {
+              "currency": "₪",
+              "value": 7574
+            },
+            "claimsList": []
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 3697,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 1539,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "25/01/2025",
+              "method": "תשלום בכרטיס אשראי",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 950,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "25/01/2025",
+                  "method": "אשראי 9301",
+                  "totalPayments": "",
+                  "policySubType": "hova",
+                  "amount": {
+                    "value": 924,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "מגדל ביטוח",
+          "address": "מענית 31, משמר העמק 23507",
+          "phone": "0764419789"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "אלעד",
+          "lastName": "כהן"
+        },
+        {
+          "firstName": "אודליה",
+          "lastName": "סויסה"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "24.01.26",
+      "youngerDriverAge": "67"
+    },
+    "insuranceType": "ביטוח מקיף",
+    "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+    "licensePlate": "83634638",
+    "isExpired": false,
+    "isActive": true,
+    "list": [
+      {
+        "policyId": "POL-820787",
+        "insuranceType": "זהיר מכירה דרך אינטרנט",
+        "policyName": "ביטוח חובה לרכב פרטי",
+        "endDate": "24.01.2026",
+        "startDate": "25.01.2025",
+        "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+        "licensePlate": "83634638",
+        "classification": "אישי",
+        "carPolicyType": "gimel",
+        "isExpired": false,
+        "isActive": false,
+        "sectorId": "428",
+        "validityTime": "25.01.2025",
+        "isSmart": false,
+        "AgentNumber": 99493
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  },
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "22.03.25",
+        "startDate": "22.03.25",
+        "endDate": "21.03.26",
+        "originalEndDate": "2026-03-21T00:00:00",
+        "originalStartDate": "2025-03-22T00:00:00",
+        "premia": {
+          "value": 8876,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "22.03.25",
+            "endDate": "21.03.26",
+            "policySubType": "makif",
+            "premia": {
+              "currency": "₪",
+              "value": 3967
+            },
+            "claimsList": []
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 2676,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 589,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "22/03/2025",
+              "method": "אשראי 2320",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 628,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "22/03/2025",
+                  "method": "אשראי 0363",
+                  "totalPayments": "",
+                  "policySubType": "makif",
+                  "amount": {
+                    "value": 897,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "הראל ביטוח",
+          "address": "דודו דותן 54, עצמון שגב 30317",
+          "phone": "0758376136"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "אליהו",
+          "lastName": "רז"
+        },
+        {
+          "firstName": "שי לי",
+          "lastName": "אחמד"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "21.03.26",
+      "youngerDriverAge": "67"
+    },
+    "insuranceType": "מקיף + חובה",
+    "modelType": "פולקסווגן ג'טה מנג'ר 1600",
+    "licensePlate": "74800571",
+    "isExpired": true,
+    "isActive": false,
+    "list": [
+      {
+        "policyId": "POL-855907",
+        "insuranceType": "ביטוח צד ג' ללא ביטול הש",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "21.03.2026",
+        "startDate": "22.03.2025",
+        "modelType": "פולקסווגן ג'טה מנג'ר 1600",
+        "licensePlate": "74800571",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": true,
+        "isActive": true,
+        "sectorId": "632",
+        "validityTime": "22.03.2025",
+        "isSmart": false,
+        "AgentNumber": 87759
+      },
+      {
+        "policyId": "POL-789091",
+        "insuranceType": "ביטוח חובה",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "21.03.2026",
+        "startDate": "22.03.2025",
+        "modelType": "פולקסווגן ג'טה מנג'ר 1600",
+        "licensePlate": "74800571",
+        "classification": "עסקי",
+        "carPolicyType": "hova",
+        "isExpired": false,
+        "isActive": true,
+        "sectorId": "443",
+        "validityTime": "22.03.2025",
+        "isSmart": false,
+        "AgentNumber": 31955
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  },
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "23.02.25",
+        "startDate": "23.02.25",
+        "endDate": "22.02.26",
+        "originalEndDate": "2026-02-22T00:00:00",
+        "originalStartDate": "2025-02-23T00:00:00",
+        "premia": {
+          "value": 7293,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "23.02.25",
+            "endDate": "22.02.26",
+            "policySubType": "makif",
+            "premia": {
+              "currency": "₪",
+              "value": 5987
+            },
+            "claimsList": []
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 5526,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 2607,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "23/02/2025",
+              "method": "תשלום בכרטיס אשראי",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 511,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "23/02/2025",
+                  "method": "אשראי 9380",
+                  "totalPayments": "",
+                  "policySubType": "makif",
+                  "amount": {
+                    "value": 283,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "הפניקס SMART",
+          "address": "העצמון 01, ורד יריחו 15266",
+          "phone": "0724898553"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "חלא",
+          "lastName": "שדה"
+        },
+        {
+          "firstName": "מאיה",
+          "lastName": "עמר"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "22.02.26",
+      "youngerDriverAge": "68"
+    },
+    "insuranceType": "פרט",
+    "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+    "licensePlate": "71085213",
+    "isExpired": false,
+    "isActive": true,
+    "list": [
+      {
+        "policyId": "POL-259656",
+        "insuranceType": "רכב שני",
+        "policyName": "ביטוח חובה לרכב פרטי",
+        "endDate": "22.02.2026",
+        "startDate": "23.02.2025",
+        "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+        "licensePlate": "71085213",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": false,
+        "isActive": true,
+        "sectorId": "951",
+        "validityTime": "23.02.2025",
+        "isSmart": false,
+        "AgentNumber": 66630
+      },
+      {
+        "policyId": "POL-851990",
+        "insuranceType": "ביטוח מקיף",
+        "policyName": "ביטוח חובה לרכב פרטי",
+        "endDate": "22.02.2026",
+        "startDate": "23.02.2025",
+        "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+        "licensePlate": "71085213",
+        "classification": "אישי",
+        "carPolicyType": "makif",
+        "isExpired": false,
+        "isActive": true,
+        "sectorId": "861",
+        "validityTime": "23.02.2025",
+        "isSmart": false,
+        "AgentNumber": 96403
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  },
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "23.01.25",
+        "startDate": "23.01.25",
+        "endDate": "22.01.26",
+        "originalEndDate": "2026-01-22T00:00:00",
+        "originalStartDate": "2025-01-23T00:00:00",
+        "premia": {
+          "value": 9405,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "23.01.25",
+            "endDate": "22.01.26",
+            "policySubType": "hova",
+            "premia": {
+              "currency": "₪",
+              "value": 1127
+            },
+            "claimsList": [
+              {
+                "claimNo": "7118214468",
+                "submissionDate": "23.01.25"
+              }
+            ]
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 4525,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 711,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "23/01/2025",
+              "method": "אשראי 4832",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 385,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "23/01/2025",
+                  "method": "אשראי 0808",
+                  "totalPayments": "",
+                  "policySubType": "makif",
+                  "amount": {
+                    "value": 591,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "כלל ביטוח",
+          "address": "אשל 28, בית חנניה 89695",
+          "phone": "0785117688"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "יוסף",
+          "lastName": "כהן"
+        },
+        {
+          "firstName": "מוחמד",
+          "lastName": "שחאדה"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "22.01.26",
+      "youngerDriverAge": "19"
+    },
+    "insuranceType": "קלאסי",
+    "modelType": "יונדאי I01 החדשה",
+    "licensePlate": "93473865",
+    "isExpired": true,
+    "isActive": true,
+    "list": [
+      {
+        "policyId": "POL-529100",
+        "insuranceType": "",
+        "policyName": "ביטוח חובה לרכב פרטי",
+        "endDate": "22.01.2026",
+        "startDate": "23.01.2025",
+        "modelType": "יונדאי I01 החדשה",
+        "licensePlate": "93473865",
+        "classification": "אישי",
+        "carPolicyType": "makif",
+        "isExpired": true,
+        "isActive": true,
+        "sectorId": "669",
+        "validityTime": "23.01.2025",
+        "isSmart": true,
+        "AgentNumber": 78178
+      },
+      {
+        "policyId": "POL-652014",
+        "insuranceType": "רכב שני",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "22.01.2026",
+        "startDate": "23.01.2025",
+        "modelType": "יונדאי I01 החדשה",
+        "licensePlate": "93473865",
+        "classification": "אישי",
+        "carPolicyType": "gimel",
+        "isExpired": true,
+        "isActive": false,
+        "sectorId": "325",
+        "validityTime": "23.01.2025",
+        "isSmart": false,
+        "AgentNumber": 99607
+      },
+      {
+        "policyId": "POL-364802",
+        "insuranceType": "ביטוח מקיף",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "22.01.2026",
+        "startDate": "23.01.2025",
+        "modelType": "יונדאי I01 החדשה",
+        "licensePlate": "93473865",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": true,
+        "isActive": false,
+        "sectorId": "82",
+        "validityTime": "23.01.2025",
+        "isSmart": true,
+        "AgentNumber": 18886
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  }
+]

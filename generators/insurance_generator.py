@@ -23,9 +23,10 @@ class InsuranceGenerator(BaseGenerator):
     methods for generating realistic insurance records.
     """
     
-    def __init__(self, faker: Faker, config: Config):
+    def __init__(self, faker: Faker, config: Config, field_profiles=None):
         """Initialize the insurance generator."""
         super().__init__(faker, config)
+        self.field_profiles = field_profiles or {}
     
     def generate_record(self) -> Dict[str, Any]:
         """
