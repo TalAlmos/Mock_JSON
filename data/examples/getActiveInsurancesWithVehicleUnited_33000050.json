@@ -1,0 +1,46 @@
+{
+  "status": null,
+  "message": "OK",
+  "transId": "string",
+  "entity": "vehicleUnitedEntity",
+  "response": [
+    {
+      "id": "travel",
+      "data": [
+        {
+          "policyId": "758880522609666",
+          "insuranceType": "ביטוח נסיעות לחו\"ל",
+          "policyName": "ביטוח נסיעות לחו\"ל",
+          "endDate": "16.03.26",
+          "startDate": "02.03.26",
+          "description": "SMART TRAVEL",
+          "isExpired": true,
+          "isActive": true,
+          "destination": "אסיה",
+          "isSmart": false,
+          "insuredName": "דנה מאיר",
+          "beneficiariesCount": 2,
+          "AgentNumber": 77069
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "data": [
+        {
+          "policyId": "3501199432",
+          "insuranceType": "פרט",
+          "originalPolicyName": "פרט",
+          "policyName": "ביטוח סיעודי",
+          "startDate": "18.05.11",
+          "insuredName": "",
+          "beneficiariesCount": 0,
+          "isPaila": false,
+          "isExpired": true,
+          "AgentNumber": 74869,
+          "isActive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "status": 200,
+  "message": "OK",
+  "transId": "string",
+  "entity": "MyMoneyResponse",
+  "response": {
+    "topHeader": {
+      "sumSaving": {
+        "value": 1902,
+        "currency": "₪"
+      },
+      "numSavingChannel": 1,
+      "monthChange": {
+        "value": 0,
+        "sign": "%"
+      },
+      "sumMonthChange": {
+        "value": 0,
+        "currency": "₪"
+      },
+      "accumulateChange": {
+        "value": 0,
+        "currency": "₪"
+      }
+    },
+    "mainHeader": {
+      "date": "31.05.2025",
+      "totalSaving": {
+        "value": 1902,
+        "currency": "₪"
+      },
+      "fluentWithdraw": {
+        "value": 1902,
+        "currency": "₪"
+      },
+      "expectedForRetirement": null,
+      "savingExpectedForRetirement": null
+    },
+    "accumulationByProduct": {
+      "list": [
+        {
+          "policyType": "hishtalmut",
+          "savingSum": {
+            "value": 1902,
+            "currency": "₪"
+          },
+          "fluentSum": {
+            "value": 1902,
+            "currency": "₪"
+          },
+          "eligibilityDate": "",
+          "expectedForRetirement": null,
+          "notUsedForRetirement": true,
+          "policyIds": [
+            "007-075-176505 (0659953)"
+          ],
+          "updateDate": "25.06.25"
+        }
+      ]
+    },
+    "productList": {
+      "list": [
+        {
+          "policyType": "hishtalmut",
+          "policyList": [
+            {
+              "policyId": "007-075-176505 (0659953)",
+              "originalPolicyName": null,
+              "policyNickname": null,
+              "subType": null,
+              "status": {
+                "status": 1,
+                "statusDesc": "לא פעילה"
+              },
+              "updateTo": "31.05.2025",
+              "dailyUpdateTo": "25.06.2025",
+              "yieldUpdateDate": null,
+              "dailyYieldUpdateDate": "31.05.2025",
+              "hasProfitsShare": null,
+              "productData": {
+                "savingSum": {
+                  "value": 1902,
+                  "currency": "₪"
+                },
+                "yieldBeginningYear": null,
+                "lastDeposit": null,
+                "depositedThisYear": null,
+                "availableWithdraw": {
+                  "value": 1902,
+                  "currency": "₪"
+                },
+                "withdrawDate": null,
+                "managementFee": {
+                  "fromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "fromSaving": {
+                    "value": 1.99,
+                    "sign": "%"
+                  }
+                },
+                "yieldFromYearBeginningTotal": null
+              },
+              "investmentRoutes": [
+                {
+                  "name": "הפניקס השתלמות אשראי ואג\"ח",
+                  "joinDate": null,
+                  "percent": {
+                    "value": 100,
+                    "sign": "%"
+                  },
+                  "yieldBeginningYear": {
+                    "value": 1.56,
+                    "sign": "%"
+                  },
+                  "yieldBeginningPolicy": null,
+                  "managementFeeFromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "managementFeeFromSaving": {
+                    "value": 1.99,
+                    "sign": "%"
+                  },
+                  "accumulation": {
+                    "value": 1902,
+                    "currency": "₪"
+                  },
+                  "basketCode": "716",
+                  "isYieldHidden": null,
+                  "dailyUpdateDate": "31.05.2025"
+                }
+              ],
+              "tsuotPopup": null,
+              "isNew": false,
+              "isIndependent": true
+            }
+          ]
+        }
+      ]
+    },
+    "lastActions": {
+      "list": []
+    }
+  }
+}

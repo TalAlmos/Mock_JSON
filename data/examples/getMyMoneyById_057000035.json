@@ -1,0 +1,502 @@
+{
+  "status": 200,
+  "message": "OK",
+  "transId": "string",
+  "entity": "MyMoneyResponse",
+  "response": {
+    "topHeader": {
+      "sumSaving": {
+        "value": 461024,
+        "currency": "₪"
+      },
+      "numSavingChannel": 2,
+      "monthChange": {
+        "value": 0,
+        "sign": "%"
+      },
+      "sumMonthChange": {
+        "value": 0,
+        "currency": "₪"
+      },
+      "accumulateChange": {
+        "value": 0,
+        "currency": "₪"
+      }
+    },
+    "mainHeader": {
+      "date": "31.05.2025",
+      "totalSaving": {
+        "value": 461024,
+        "currency": "₪"
+      },
+      "fluentWithdraw": {
+        "value": 132557,
+        "currency": "₪"
+      },
+      "expectedForRetirement": null,
+      "savingExpectedForRetirement": null
+    },
+    "accumulationByProduct": {
+      "list": [
+        {
+          "policyType": "gemel",
+          "savingSum": {
+            "value": 422069,
+            "currency": "₪"
+          },
+          "fluentSum": {
+            "value": 93602,
+            "currency": "₪"
+          },
+          "eligibilityDate": "",
+          "expectedForRetirement": null,
+          "notUsedForRetirement": false,
+          "policyIds": [
+            "001-037-336266 (0550722)",
+            "001-230-289649 (0550721)",
+            "001-230-289649 (0550724)",
+            "001-230-289630 (0550725)"
+          ],
+          "updateDate": "25.06.25"
+        },
+        {
+          "policyType": "hishtalmut",
+          "savingSum": {
+            "value": 38955,
+            "currency": "₪"
+          },
+          "fluentSum": {
+            "value": 38955,
+            "currency": "₪"
+          },
+          "eligibilityDate": "",
+          "expectedForRetirement": null,
+          "notUsedForRetirement": true,
+          "policyIds": [
+            "007-037-336266 (8120690)"
+          ],
+          "updateDate": "25.06.25"
+        }
+      ]
+    },
+    "productList": {
+      "list": [
+        {
+          "policyType": "gemel",
+          "policyList": [
+            {
+              "policyId": "001-037-336266 (0550722)",
+              "originalPolicyName": null,
+              "policyNickname": null,
+              "subType": null,
+              "status": {
+                "status": 1,
+                "statusDesc": "לא פעילה"
+              },
+              "updateTo": "31.05.2025",
+              "dailyUpdateTo": "25.06.2025",
+              "yieldUpdateDate": null,
+              "dailyYieldUpdateDate": "31.05.2025",
+              "hasProfitsShare": null,
+              "productData": {
+                "savingSum": {
+                  "value": 662,
+                  "currency": "₪"
+                },
+                "yieldBeginningYear": null,
+                "lastDeposit": null,
+                "depositedThisYear": null,
+                "availableWithdraw": {
+                  "value": 656,
+                  "currency": "₪"
+                },
+                "withdrawDate": null,
+                "managementFee": {
+                  "fromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "fromSaving": {
+                    "value": 0.5,
+                    "sign": "%"
+                  }
+                },
+                "yieldFromYearBeginningTotal": null
+              },
+              "investmentRoutes": [
+                {
+                  "name": "הפניקס גמל אשראי ואג\"ח",
+                  "joinDate": null,
+                  "percent": {
+                    "value": 100,
+                    "sign": "%"
+                  },
+                  "yieldBeginningYear": {
+                    "value": 1.62,
+                    "sign": "%"
+                  },
+                  "yieldBeginningPolicy": null,
+                  "managementFeeFromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "managementFeeFromSaving": {
+                    "value": 0.5,
+                    "sign": "%"
+                  },
+                  "accumulation": {
+                    "value": 662,
+                    "currency": "₪"
+                  },
+                  "basketCode": "385",
+                  "isYieldHidden": null,
+                  "dailyUpdateDate": "31.05.2025"
+                }
+              ],
+              "tsuotPopup": null,
+              "isNew": false,
+              "isIndependent": true
+            },
+            {
+              "policyId": "001-230-289649 (0550721)",
+              "originalPolicyName": null,
+              "policyNickname": null,
+              "subType": null,
+              "status": {
+                "status": 1,
+                "statusDesc": "לא פעילה"
+              },
+              "updateTo": "31.05.2025",
+              "dailyUpdateTo": "25.06.2025",
+              "yieldUpdateDate": null,
+              "dailyYieldUpdateDate": "31.05.2025",
+              "hasProfitsShare": null,
+              "productData": {
+                "savingSum": {
+                  "value": 129432,
+                  "currency": "₪"
+                },
+                "yieldBeginningYear": null,
+                "lastDeposit": null,
+                "depositedThisYear": null,
+                "availableWithdraw": {
+                  "value": 79778,
+                  "currency": "₪"
+                },
+                "withdrawDate": null,
+                "managementFee": {
+                  "fromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "fromSaving": {
+                    "value": 0.4,
+                    "sign": "%"
+                  }
+                },
+                "yieldFromYearBeginningTotal": null
+              },
+              "investmentRoutes": [
+                {
+                  "name": "הפניקס גמל לבני 60 ומעלה",
+                  "joinDate": null,
+                  "percent": {
+                    "value": 100,
+                    "sign": "%"
+                  },
+                  "yieldBeginningYear": {
+                    "value": 2.72,
+                    "sign": "%"
+                  },
+                  "yieldBeginningPolicy": null,
+                  "managementFeeFromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "managementFeeFromSaving": {
+                    "value": 0.4,
+                    "sign": "%"
+                  },
+                  "accumulation": {
+                    "value": 129432,
+                    "currency": "₪"
+                  },
+                  "basketCode": "401",
+                  "isYieldHidden": null,
+                  "dailyUpdateDate": "31.05.2025"
+                }
+              ],
+              "tsuotPopup": null,
+              "isNew": false,
+              "isIndependent": false
+            },
+            {
+              "policyId": "001-230-289649 (0550724)",
+              "originalPolicyName": null,
+              "policyNickname": null,
+              "subType": null,
+              "status": {
+                "status": 1,
+                "statusDesc": "לא פעילה"
+              },
+              "updateTo": "31.05.2025",
+              "dailyUpdateTo": "25.06.2025",
+              "yieldUpdateDate": null,
+              "dailyYieldUpdateDate": "31.05.2025",
+              "hasProfitsShare": null,
+              "productData": {
+                "savingSum": {
+                  "value": 21365,
+                  "currency": "₪"
+                },
+                "yieldBeginningYear": null,
+                "lastDeposit": null,
+                "depositedThisYear": null,
+                "availableWithdraw": {
+                  "value": 13168,
+                  "currency": "₪"
+                },
+                "withdrawDate": null,
+                "managementFee": {
+                  "fromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "fromSaving": {
+                    "value": 0.4,
+                    "sign": "%"
+                  }
+                },
+                "yieldFromYearBeginningTotal": null
+              },
+              "investmentRoutes": [
+                {
+                  "name": "הפניקס גמל לבני 60 ומעלה",
+                  "joinDate": null,
+                  "percent": {
+                    "value": 100,
+                    "sign": "%"
+                  },
+                  "yieldBeginningYear": {
+                    "value": 2.72,
+                    "sign": "%"
+                  },
+                  "yieldBeginningPolicy": null,
+                  "managementFeeFromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "managementFeeFromSaving": {
+                    "value": 0.4,
+                    "sign": "%"
+                  },
+                  "accumulation": {
+                    "value": 21365,
+                    "currency": "₪"
+                  },
+                  "basketCode": "401",
+                  "isYieldHidden": null,
+                  "dailyUpdateDate": "31.05.2025"
+                }
+              ],
+              "tsuotPopup": null,
+              "isNew": false,
+              "isIndependent": false
+            },
+            {
+              "policyId": "001-230-289630 (0550725)",
+              "originalPolicyName": null,
+              "policyNickname": null,
+              "subType": null,
+              "status": {
+                "status": 2,
+                "statusDesc": "פעילה"
+              },
+              "updateTo": "31.05.2025",
+              "dailyUpdateTo": "25.06.2025",
+              "yieldUpdateDate": null,
+              "dailyYieldUpdateDate": "31.05.2025",
+              "hasProfitsShare": null,
+              "productData": {
+                "savingSum": {
+                  "value": 270610,
+                  "currency": "₪"
+                },
+                "yieldBeginningYear": null,
+                "lastDeposit": {
+                  "lastDepositsSum": {
+                    "value": 9.24,
+                    "currency": "₪"
+                  },
+                  "lastDepositsDate": "05.05.2025"
+                },
+                "depositedThisYear": null,
+                "availableWithdraw": null,
+                "withdrawDate": null,
+                "managementFee": {
+                  "fromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "fromSaving": {
+                    "value": 0.4,
+                    "sign": "%"
+                  }
+                },
+                "yieldFromYearBeginningTotal": null
+              },
+              "investmentRoutes": [
+                {
+                  "name": "הפניקס גמל לבני 50 ומטה",
+                  "joinDate": null,
+                  "percent": {
+                    "value": 100,
+                    "sign": "%"
+                  },
+                  "yieldBeginningYear": {
+                    "value": 3.87,
+                    "sign": "%"
+                  },
+                  "yieldBeginningPolicy": null,
+                  "managementFeeFromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "managementFeeFromSaving": {
+                    "value": 0.4,
+                    "sign": "%"
+                  },
+                  "accumulation": {
+                    "value": 270610,
+                    "currency": "₪"
+                  },
+                  "basketCode": "9916",
+                  "isYieldHidden": null,
+                  "dailyUpdateDate": "31.05.2025"
+                }
+              ],
+              "tsuotPopup": null,
+              "isNew": false,
+              "isIndependent": false
+            }
+          ]
+        },
+        {
+          "policyType": "hishtalmut",
+          "policyList": [
+            {
+              "policyId": "007-037-336266 (8120690)",
+              "originalPolicyName": null,
+              "policyNickname": null,
+              "subType": null,
+              "status": {
+                "status": 2,
+                "statusDesc": "פעילה"
+              },
+              "updateTo": "31.05.2025",
+              "dailyUpdateTo": "25.06.2025",
+              "yieldUpdateDate": null,
+              "dailyYieldUpdateDate": "31.05.2025",
+              "hasProfitsShare": null,
+              "productData": {
+                "savingSum": {
+                  "value": 38955,
+                  "currency": "₪"
+                },
+                "yieldBeginningYear": null,
+                "lastDeposit": {
+                  "lastDepositsSum": {
+                    "value": 39.61,
+                    "currency": "₪"
+                  },
+                  "lastDepositsDate": "05.05.2025"
+                },
+                "depositedThisYear": null,
+                "availableWithdraw": {
+                  "value": 38955,
+                  "currency": "₪"
+                },
+                "withdrawDate": null,
+                "managementFee": {
+                  "fromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "fromSaving": {
+                    "value": 0.4,
+                    "sign": "%"
+                  }
+                },
+                "yieldFromYearBeginningTotal": null
+              },
+              "investmentRoutes": [
+                {
+                  "name": "הפניקס השתלמות אשראי ואג\"ח עם מניות  (עד 25% מניות)",
+                  "joinDate": null,
+                  "percent": {
+                    "value": 90,
+                    "sign": "%"
+                  },
+                  "yieldBeginningYear": {
+                    "value": 2.05,
+                    "sign": "%"
+                  },
+                  "yieldBeginningPolicy": null,
+                  "managementFeeFromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "managementFeeFromSaving": {
+                    "value": 0.4,
+                    "sign": "%"
+                  },
+                  "accumulation": {
+                    "value": 34986,
+                    "currency": "₪"
+                  },
+                  "basketCode": "1100",
+                  "isYieldHidden": null,
+                  "dailyUpdateDate": "31.05.2025"
+                },
+                {
+                  "name": "הפניקס השתלמות אשראי ואג\"ח",
+                  "joinDate": null,
+                  "percent": {
+                    "value": 10,
+                    "sign": "%"
+                  },
+                  "yieldBeginningYear": {
+                    "value": 1.56,
+                    "sign": "%"
+                  },
+                  "yieldBeginningPolicy": null,
+                  "managementFeeFromDeposit": {
+                    "value": 0,
+                    "sign": "%"
+                  },
+                  "managementFeeFromSaving": {
+                    "value": 0.4,
+                    "sign": "%"
+                  },
+                  "accumulation": {
+                    "value": 3969,
+                    "currency": "₪"
+                  },
+                  "basketCode": "716",
+                  "isYieldHidden": null,
+                  "dailyUpdateDate": "31.05.2025"
+                }
+              ],
+              "tsuotPopup": null,
+              "isNew": false,
+              "isIndependent": false
+            }
+          ]
+        }
+      ]
+    },
+    "lastActions": {
+      "list": []
+    }
+  }
+}

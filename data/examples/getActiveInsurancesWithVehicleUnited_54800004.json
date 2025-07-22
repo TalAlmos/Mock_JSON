@@ -1,0 +1,235 @@
+{
+  "status": null,
+  "message": "OK",
+  "transId": "string",
+  "entity": "vehicleUnitedEntity",
+  "response": [
+    {
+      "id": "life",
+      "data": []
+    },
+    {
+      "id": "vehicle",
+      "data": []
+    },
+    {
+      "id": "vehicleUnited",
+      "data": [
+        {
+          "vehicleUnitedDetail": {
+            "insuranceDetails": {
+              "updatedAt": "28.11.24",
+              "startDate": "29.11.24",
+              "endDate": "30.11.25",
+              "originalEndDate": "2025-11-30T00:00:00",
+              "originalStartDate": "2024-11-29T00:00:00",
+              "premia": {
+                "value": 4640,
+                "currency": "₪"
+              },
+              "list": [
+                {
+                  "requiredRenewal": true,
+                  "startDate": "29.11.24",
+                  "endDate": "30.11.25",
+                  "policySubType": "makif",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 3445
+                  },
+                  "claimsList": []
+                },
+                {
+                  "requiredRenewal": true,
+                  "startDate": "29.11.24",
+                  "endDate": "30.11.25",
+                  "policySubType": "hova",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 1195
+                  },
+                  "claimsList": []
+                }
+              ]
+            },
+            "payments": {
+              "payedSum": {
+                "value": 4640,
+                "currency": "₪"
+              },
+              "balanceSum": {
+                "value": 0,
+                "currency": "₪"
+              },
+              "payedList": {
+                "list": [
+                  {
+                    "date": "05.03.2025",
+                    "method": "אשראי 1380",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 928,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.03.2025",
+                        "method": "אשראי 1380",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 689,
+                          "currency": "₪"
+                        }
+                      },
+                      {
+                        "paymentNo": null,
+                        "date": "05.03.2025",
+                        "method": "אשראי 1380",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 239,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "05.04.2025",
+                    "method": "אשראי 1380",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 928,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.04.2025",
+                        "method": "אשראי 1380",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 689,
+                          "currency": "₪"
+                        }
+                      },
+                      {
+                        "paymentNo": null,
+                        "date": "05.04.2025",
+                        "method": "אשראי 1380",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 239,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "05.05.2025",
+                    "method": "אשראי 1380",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 689,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.05.2025",
+                        "method": "אשראי 1380",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 689,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "agentDetails": [
+              {
+                "name": "גיורא קרן לביטוח בע\"מ",
+                "address": "חלץ 2 חיפה 32950",
+                "phone": "048621140",
+                "phone_2": "0546699177"
+              }
+            ],
+            "authorizedDrivers": [],
+            "serviceList": [
+              {
+                "type": "גרירה",
+                "name": "דרכים",
+                "phone": "*2008",
+                "eSite": null
+              },
+              {
+                "type": "שמשות",
+                "name": "דרכים",
+                "phone": "*2008",
+                "eSite": null
+              },
+              {
+                "type": "פנסים ומראות",
+                "name": "דרכים",
+                "phone": "*2008",
+                "eSite": null
+              }
+            ],
+            "treatmentSubjects": [],
+            "licenseEndDate": "25.11.25",
+            "youngerDriverAge": "50"
+          },
+          "insuranceType": "מקיף + חובה",
+          "modelType": "סוזוקי SSORC-S XLG (1373) היברידי 129 כ\"",
+          "licensePlate": "79517003",
+          "isExpired": true,
+          "isActive": true,
+          "list": [
+            {
+              "policyId": "241112767204052",
+              "insuranceType": "מסלול באחריות",
+              "policyName": "ביטוח לרכב פרטי",
+              "endDate": "30.11.25",
+              "startDate": "29.11.24",
+              "modelType": "סוזוקי SSORC-S XLG (1373) היברידי 129 כ\"",
+              "licensePlate": "79517003",
+              "classification": "אישי",
+              "carPolicyType": "makif",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "40",
+              "validityTime": "29.11.2024",
+              "isSmart": false,
+              "AgentNumber": 6498
+            },
+            {
+              "policyId": "241112767204052",
+              "insuranceType": "",
+              "policyName": "ביטוח חובה לרכב פרטי",
+              "endDate": "30.11.25",
+              "startDate": "29.11.24",
+              "modelType": "סוזוקי SSORC-S XLG (1373) היברידי 129 כ\"",
+              "licensePlate": "79517003",
+              "classification": "אישי",
+              "carPolicyType": "hova",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "540",
+              "validityTime": "29.11.2024",
+              "isSmart": false,
+              "AgentNumber": 6498
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

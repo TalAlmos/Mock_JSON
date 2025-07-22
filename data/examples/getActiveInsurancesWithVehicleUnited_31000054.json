@@ -1,0 +1,222 @@
+{
+  "status": null,
+  "message": "OK",
+  "transId": "string",
+  "entity": "vehicleUnitedEntity",
+  "response": [
+    {
+      "id": "vehicle",
+      "data": []
+    },
+    {
+      "id": "vehicleUnited",
+      "data": [
+        {
+          "vehicleUnitedDetail": {
+            "insuranceDetails": {
+              "updatedAt": "22.06.25",
+              "startDate": "01.01.25",
+              "endDate": "31.12.25",
+              "originalEndDate": "2025-12-31T00:00:00",
+              "originalStartDate": "2025-01-01T00:00:00",
+              "premia": {
+                "value": 7425,
+                "currency": "₪"
+              },
+              "list": [
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.01.25",
+                  "endDate": "31.12.25",
+                  "policySubType": "makif",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 5769
+                  },
+                  "claimsList": [
+                    {
+                      "claimNo": "2514667425",
+                      "submissionDate": "30.04.25"
+                    }
+                  ]
+                },
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.01.25",
+                  "endDate": "31.12.25",
+                  "policySubType": "hova",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 1656
+                  },
+                  "claimsList": []
+                }
+              ]
+            },
+            "payments": {
+              "payedSum": {
+                "value": 4876,
+                "currency": "₪"
+              },
+              "balanceSum": {
+                "value": 2549,
+                "currency": "₪"
+              },
+              "payedList": {
+                "list": [
+                  {
+                    "date": "15.06.2025",
+                    "method": "תשלום בכרטיס אשראי",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 419,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "15.06.2025",
+                        "method": "תשלום בכרטיס אשראי",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 419,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "01.07.2025",
+                    "method": "ויזה כ.א.ל 2666",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 570,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "01.07.2025",
+                        "method": "ויזה כ.א.ל 2666",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 570,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "01.08.2025",
+                    "method": "ויזה כ.א.ל 2666",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 519,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "01.08.2025",
+                        "method": "ויזה כ.א.ל 2666",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 519,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "agentDetails": [
+              {
+                "name": "הפניקס SMART",
+                "address": "דרך השלום 53 גבעתיים 53454",
+                "phone": "0778888888"
+              }
+            ],
+            "authorizedDrivers": [
+              {
+                "firstName": "אור",
+                "lastName": "גורדון"
+              },
+              {
+                "firstName": "לירון",
+                "lastName": "לב"
+              }
+            ],
+            "serviceList": [
+              {
+                "type": "גרירה",
+                "name": "שגריר",
+                "phone": "*8888",
+                "eSite": null
+              },
+              {
+                "type": "שמשות",
+                "name": "אוטוגלס",
+                "phone": "03-6507777",
+                "eSite": null
+              },
+              {
+                "type": "פנסים ומראות",
+                "name": "אוטוגלס",
+                "phone": "03-6507777",
+                "eSite": null
+              }
+            ],
+            "treatmentSubjects": [],
+            "licenseEndDate": "18.01.26",
+            "youngerDriverAge": "44"
+          },
+          "insuranceType": "מקיף + חובה",
+          "modelType": "מאזדה 5-XC אקסקיוטיב (1998) אוטו' 165 כ\"",
+          "licensePlate": "79592902",
+          "isExpired": true,
+          "isActive": true,
+          "list": [
+            {
+              "policyId": "250909234654175",
+              "insuranceType": "רכב שני",
+              "policyName": "ביטוח לרכב פרטי",
+              "endDate": "31.12.25",
+              "startDate": "01.01.25",
+              "modelType": "מאזדה 5-XC אקסקיוטיב (1998) אוטו' 165 כ\"",
+              "licensePlate": "79592902",
+              "classification": "אישי",
+              "carPolicyType": "makif",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "41",
+              "validityTime": "01.01.2025",
+              "isSmart": true,
+              "AgentNumber": 64096
+            },
+            {
+              "policyId": "250909234654175",
+              "insuranceType": "",
+              "policyName": "ביטוח חובה לרכב פרטי",
+              "endDate": "31.12.25",
+              "startDate": "01.01.25",
+              "modelType": "מאזדה 5-XC אקסקיוטיב (1998) אוטו' 165 כ\"",
+              "licensePlate": "79592902",
+              "classification": "אישי",
+              "carPolicyType": "hova",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "541",
+              "validityTime": "01.01.2025",
+              "isSmart": true,
+              "AgentNumber": 64096
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

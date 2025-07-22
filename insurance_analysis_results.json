@@ -1,0 +1,15 @@
+{
+  "insurance_types": [
+    "business",
+    "dental",
+    "dira",
+    "health",
+    "life",
+    "other",
+    "travel",
+    "vehicle",
+    "vehicleUnited"
+  ],
+  "field_structures": {
+    "vehicleUnited": {
+      "vehicleUnitedDetail": 

@@ -1,0 +1,88 @@
+{
+  "status": null,
+  "message": "OK",
+  "transId": "string",
+  "entity": "vehicleUnitedEntity",
+  "response": [
+    {
+      "id": "life",
+      "data": [
+        {
+          "policyId": "3009213171",
+          "policyName": "ביטוח למקרה פטירה",
+          "originalPolicyName": "ריסק 1",
+          "insuranceType": "קלאסי",
+          "startDate": "27.02.25",
+          "insuredName": "",
+          "classification": "אישי",
+          "isKlasi": true,
+          "isRiziko": false,
+          "isExpired": false,
+          "insuranceSum": {
+            "value": 1174709,
+            "currency": "₪"
+          },
+          "sum": null,
+          "AgentNumber": 51128,
+          "isActive": true,
+          "isCopyPolicyDoc": true
+        },
+        {
+          "policyId": "1317131090",
+          "policyName": "אובדן כושר עבודה",
+          "originalPolicyName": "מטריה ביטוחית לקרן הפנסיה",
+          "insuranceType": "מסלול",
+          "startDate": "23.02.25",
+          "insuredName": "",
+          "classification": "אישי",
+          "isKlasi": false,
+          "isRiziko": false,
+          "isExpired": false,
+          "insuranceSum": {
+            "value": 17120,
+            "currency": "₪"
+          },
+          "sum": null,
+          "AgentNumber": 51128,
+          "isActive": true,
+          "isCopyPolicyDoc": true
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "data": [
+        {
+          "policyId": "260966675780576",
+          "insuranceType": "ביטוח נסיעות לחו\"ל",
+          "policyName": "ביטוח נסיעות לחו\"ל",
+          "endDate": "20.03.26",
+          "startDate": "05.03.26",
+          "description": "SMART TRAVEL",
+          "isExpired": true,
+          "isActive": true,
+          "destination": "אסיה",
+          "isSmart": true,
+          "insuredName": "דנה לוי",
+          "beneficiariesCount": 1,
+          "AgentNumber": 64072
+        },
+        {
+          "policyId": "250966675443363",
+          "insuranceType": "ביטוח נסיעות לחו\"ל",
+          "policyName": "ביטוח נסיעות לחו\"ל",
+          "endDate": "24.11.25",
+          "startDate": "06.11.25",
+          "description": "SMART TRAVEL",
+          "isExpired": true,
+          "isActive": true,
+          "destination": "אסיה",
+          "isSmart": false,
+          "insuredName": "דנה לוי",
+          "beneficiariesCount": 1,
+          "AgentNumber": 77069
+        }
+      ]
+    }
+  ]
+}

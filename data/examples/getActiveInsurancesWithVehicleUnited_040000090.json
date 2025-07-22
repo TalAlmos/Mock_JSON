@@ -1,0 +1,239 @@
+{
+  "status": null,
+  "message": "OK",
+  "transId": "string",
+  "entity": "vehicleUnitedEntity",
+  "response": [
+    {
+      "id": "vehicle",
+      "data": []
+    },
+    {
+      "id": "vehicleUnited",
+      "data": [
+        {
+          "vehicleUnitedDetail": {
+            "insuranceDetails": {
+              "updatedAt": "28.11.24",
+              "startDate": "01.01.25",
+              "endDate": "31.12.25",
+              "originalEndDate": "2025-12-31T00:00:00",
+              "originalStartDate": "2025-01-01T00:00:00",
+              "premia": {
+                "value": 5093,
+                "currency": "₪"
+              },
+              "list": [
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.01.25",
+                  "endDate": "31.12.25",
+                  "policySubType": "makif",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 3814
+                  },
+                  "claimsList": []
+                },
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.01.25",
+                  "endDate": "31.12.25",
+                  "policySubType": "hova",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 1279
+                  },
+                  "claimsList": []
+                }
+              ]
+            },
+            "payments": {
+              "payedSum": {
+                "value": 5093,
+                "currency": "₪"
+              },
+              "balanceSum": {
+                "value": 0,
+                "currency": "₪"
+              },
+              "payedList": {
+                "list": [
+                  {
+                    "date": "05.03.2025",
+                    "method": "אשראי 7724",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 1017,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.03.2025",
+                        "method": "אשראי 7724",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 762,
+                          "currency": "₪"
+                        }
+                      },
+                      {
+                        "paymentNo": null,
+                        "date": "05.03.2025",
+                        "method": "אשראי 7724",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 255,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "05.04.2025",
+                    "method": "אשראי 7724",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 1017,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.04.2025",
+                        "method": "אשראי 7724",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 762,
+                          "currency": "₪"
+                        }
+                      },
+                      {
+                        "paymentNo": null,
+                        "date": "05.04.2025",
+                        "method": "אשראי 7724",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 255,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "05.05.2025",
+                    "method": "אשראי 7724",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 766,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.05.2025",
+                        "method": "אשראי 7724",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 766,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "agentDetails": [
+              {
+                "name": "הפניקס SMART",
+                "address": "דרך השלום 53 גבעתיים 53454",
+                "phone": "0778888888"
+              }
+            ],
+            "authorizedDrivers": [
+              {
+                "firstName": "טובה",
+                "lastName": "לוי"
+              },
+              {
+                "firstName": "נולה",
+                "lastName": "מאירוב"
+              }
+            ],
+            "serviceList": [
+              {
+                "type": "גרירה",
+                "name": "דרכים",
+                "phone": "*2008",
+                "eSite": null
+              },
+              {
+                "type": "שמשות",
+                "name": "דרכים",
+                "phone": "*2008",
+                "eSite": null
+              },
+              {
+                "type": "פנסים ומראות",
+                "name": "דרכים",
+                "phone": "*2008",
+                "eSite": null
+              }
+            ],
+            "treatmentSubjects": [],
+            "licenseEndDate": "07.01.26",
+            "youngerDriverAge": "44"
+          },
+          "insuranceType": "מקיף + חובה",
+          "modelType": "ניסאן קשקאי החדשה אסנטה",
+          "licensePlate": "32845203",
+          "isExpired": true,
+          "isActive": true,
+          "list": [
+            {
+              "policyId": "250988101604142",
+              "insuranceType": "מסלול באחריות",
+              "policyName": "ביטוח לרכב פרטי",
+              "endDate": "31.12.25",
+              "startDate": "01.01.25",
+              "modelType": "ניסאן קשקאי החדשה אסנטה",
+              "licensePlate": "32845203",
+              "classification": "אישי",
+              "carPolicyType": "makif",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "41",
+              "validityTime": "01.01.2025",
+              "isSmart": true,
+              "AgentNumber": 64096
+            },
+            {
+              "policyId": "250810149654182",
+              "insuranceType": "",
+              "policyName": "ביטוח חובה לרכב פרטי",
+              "endDate": "31.12.25",
+              "startDate": "01.01.25",
+              "modelType": "ניסאן קשקאי החדשה אסנטה",
+              "licensePlate": "32845203",
+              "classification": "אישי",
+              "carPolicyType": "hova",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "541",
+              "validityTime": "01.01.2025",
+              "isSmart": true,
+              "AgentNumber": 64096
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

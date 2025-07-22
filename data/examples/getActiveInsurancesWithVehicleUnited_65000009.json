@@ -1,0 +1,233 @@
+{
+  "status": null,
+  "message": "OK",
+  "transId": "string",
+  "entity": "vehicleUnitedEntity",
+  "response": [
+    {
+      "id": "vehicle",
+      "data": []
+    },
+    {
+      "id": "vehicleUnited",
+      "data": [
+        {
+          "vehicleUnitedDetail": {
+            "insuranceDetails": {
+              "updatedAt": "27.01.25",
+              "startDate": "01.02.25",
+              "endDate": "31.01.26",
+              "originalEndDate": "2026-01-31T00:00:00",
+              "originalStartDate": "2025-02-01T00:00:00",
+              "premia": {
+                "value": 3434,
+                "currency": "₪"
+              },
+              "list": [
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.02.25",
+                  "endDate": "31.01.26",
+                  "policySubType": "gimel",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 1498
+                  },
+                  "claimsList": []
+                },
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.02.25",
+                  "endDate": "31.01.26",
+                  "policySubType": "hova",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 1936
+                  },
+                  "claimsList": []
+                }
+              ]
+            },
+            "payments": {
+              "payedSum": {
+                "value": 3434,
+                "currency": "₪"
+              },
+              "balanceSum": {
+                "value": 0,
+                "currency": "₪"
+              },
+              "payedList": {
+                "list": [
+                  {
+                    "date": "05.04.2025",
+                    "method": "אשראי 2320",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 686,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.04.2025",
+                        "method": "אשראי 2320",
+                        "totalPayments": "",
+                        "policySubType": "gimel",
+                        "amount": {
+                          "value": 299,
+                          "currency": "₪"
+                        }
+                      },
+                      {
+                        "paymentNo": null,
+                        "date": "05.04.2025",
+                        "method": "אשראי 2320",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 387,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "05.05.2025",
+                    "method": "אשראי 2320",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 686,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.05.2025",
+                        "method": "אשראי 2320",
+                        "totalPayments": "",
+                        "policySubType": "gimel",
+                        "amount": {
+                          "value": 299,
+                          "currency": "₪"
+                        }
+                      },
+                      {
+                        "paymentNo": null,
+                        "date": "05.05.2025",
+                        "method": "אשראי 2320",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 387,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "05.06.2025",
+                    "method": "אשראי 2320",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 689,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.06.2025",
+                        "method": "אשראי 2320",
+                        "totalPayments": "",
+                        "policySubType": "gimel",
+                        "amount": {
+                          "value": 302,
+                          "currency": "₪"
+                        }
+                      },
+                      {
+                        "paymentNo": null,
+                        "date": "05.06.2025",
+                        "method": "אשראי 2320",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 387,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "agentDetails": [
+              {
+                "name": "חנם ביטוח (2002) בע\"מ",
+                "address": "עין הקורא 10 ראשון לציון 75289",
+                "phone": "039659880",
+                "phone_2": "54145552001",
+                "phone_3": "0528848822"
+              }
+            ],
+            "authorizedDrivers": [
+              {
+                "firstName": "רז",
+                "lastName": "סולימאני"
+              },
+              {
+                "firstName": "רותם",
+                "lastName": "סולימאני"
+              }
+            ],
+            "serviceList": [],
+            "treatmentSubjects": [],
+            "licenseEndDate": "20.09.25",
+            "youngerDriverAge": "38"
+          },
+          "insuranceType": "צד ג' + חובה",
+          "modelType": "טויוטה לאנד קרוזר 90 פראדו ארוך לא מפואר",
+          "licensePlate": "1001310",
+          "isExpired": true,
+          "isActive": true,
+          "list": [
+            {
+              "policyId": "250221105745406",
+              "insuranceType": "",
+              "policyName": "ביטוח חובה לרכב פרטי",
+              "endDate": "31.01.26",
+              "startDate": "01.02.25",
+              "modelType": "טויוטה לאנד קרוזר 90 פראדו ארוך לא מפואר",
+              "licensePlate": "1001310",
+              "classification": "אישי",
+              "carPolicyType": "hova",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "540",
+              "validityTime": "01.02.2025",
+              "isSmart": false,
+              "AgentNumber": 5414
+            },
+            {
+              "policyId": "202211050740456",
+              "insuranceType": "ביטוח צד ג' ללא ביטול הש",
+              "policyName": "ביטוח לרכב פרטי",
+              "endDate": "31.01.26",
+              "startDate": "01.02.25",
+              "modelType": "טויוטה לאנד קרוזר 90 פראדו ארוך לא מפואר",
+              "licensePlate": "1001310",
+              "classification": "אישי",
+              "carPolicyType": "gimel",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "40",
+              "validityTime": "01.02.2025",
+              "isSmart": false,
+              "AgentNumber": 5414
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

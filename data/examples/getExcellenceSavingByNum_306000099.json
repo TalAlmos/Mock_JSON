@@ -1,0 +1,230 @@
+{
+  "message": "",
+  "response": {
+    "general": {
+      "policyName": "קופת גמל",
+      "policyNickname": null,
+      "policyNumber": "001-919-455974 (9163739)",
+      "updatedAt": "28.06.2025",
+      "startDate": null,
+      "kiumRechivSachir": true,
+      "name": "הדס דורי",
+      "isNew": true,
+      "isSeif14": false,
+      "dataSource": null
+    },
+    "noticeUpdate": {
+      "generalDetails": {
+        "startDate": "09.06.2025",
+        "oldAccountNumber": "000-00000000",
+        "employerName": "עיריית ראשון לציון",
+        "withdrawDate": null,
+        "establishmentDate": null
+      },
+      "treatmentSubjects": [
+        {
+          "processName": "בקשת הצטרפות",
+          "policyType": "gemel",
+          "date": "22.06.2025",
+          "status": 2,
+          "statusDesc": "טופל",
+          "withdrawalSum": null,
+          "pivotCode": null,
+          "id": "BDDA6A2E-31E2-EF11-8607-005056A1C107",
+          "accountNumber": "001-919-455974 (9163739)",
+          "treatmentType": "Policy"
+        }
+      ]
+    },
+    "accountTransactions": {
+      "updateDate": "28.06.2025",
+      "totalSum": {
+        "value": 991,
+        "currency": "₪"
+      },
+      "dailySum": {
+        "value": 991,
+        "currency": "₪"
+      },
+      "oneTimeWithdrawDate": "",
+      "oneTimeWithdrawDateIsOver": false,
+      "list": [
+        {
+          "year": "2025",
+          "updateDate": "",
+          "list": []
+        },
+        {
+          "year": "2024",
+          "updateDate": "",
+          "list": []
+        },
+        {
+          "year": "2023",
+          "updateDate": "",
+          "list": []
+        },
+        {
+          "year": "2022",
+          "updateDate": "",
+          "list": []
+        }
+      ]
+    },
+    "deposits": {
+      "dailyDeposits": {
+        "list": []
+      },
+      "yearlyDeposits": {
+        "list": [
+          {
+            "year": "2025",
+            "updateDate": "",
+            "list": []
+          },
+          {
+            "year": "2024",
+            "updateDate": "",
+            "list": []
+          },
+          {
+            "year": "2023",
+            "updateDate": "",
+            "list": []
+          },
+          {
+            "year": "2022",
+            "updateDate": "",
+            "list": []
+          }
+        ]
+      }
+    },
+    "managementFee": {
+      "percentageMngFee": {
+        "updateDate": "",
+        "fromDeposit": {
+          "percentageData": null
+        },
+        "fromSaving": {
+          "percentageData": null
+        }
+      },
+      "updatedMngFee": {
+        "updateDate": "28.06.2025",
+        "fromDeposit": {
+          "percentageData": {
+            "value": 0,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "dateFrom": "01.01.2025",
+                "dateTo": "31.05.2030"
+              },
+              {
+                "fromSaving": {
+                  "value": 0.6,
+                  "sign": "%"
+                },
+                "dateFrom": "01.01.2025",
+                "dateTo": "31.05.2030"
+              }
+            ]
+          }
+        },
+        "fromSaving": {
+          "percentageData": {
+            "value": 0.6,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "dateFrom": "01.01.2025",
+                "dateTo": "31.05.2030"
+              },
+              {
+                "fromSaving": {
+                  "value": 0.6,
+                  "sign": "%"
+                },
+                "dateFrom": "01.01.2025",
+                "dateTo": "31.05.2030"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "yearCostPrediction": {
+      "list": [
+        {
+          "title": "הפניקס גמל לבני 60 ומעלה",
+          "savingFee": null,
+          "depositFee": null,
+          "expenseCommission": {
+            "value": 0.28,
+            "sign": "%"
+          },
+          "expenseNonCommission": {
+            "value": 0.09,
+            "sign": "%"
+          },
+          "yearCostPrediction": null
+        },
+        {
+          "title": "הפניקס גמל לבני 50 ומטה",
+          "savingFee": null,
+          "depositFee": null,
+          "expenseCommission": {
+            "value": 0.3,
+            "sign": "%"
+          },
+          "expenseNonCommission": {
+            "value": 0.1,
+            "sign": "%"
+          },
+          "yearCostPrediction": null
+        }
+      ]
+    },
+    "investmentRoutesTransferConcentration": {
+      "investmentRoutes": {
+        "updateDate": "28.06.2025",
+        "list": [],
+        "transferConcentration": {
+          "list": [],
+          "updatedAt": ""
+        }
+      }
+    },
+    "expectedPayments": {
+      "updateDate": "",
+      "list": [
+        {
+          "title": "סכום למקרה מוות",
+          "subTitle": "סכום חד פעמי במקרה של מוות",
+          "sum": {
+            "value": 0,
+            "currency": "₪"
+          }
+        }
+      ]
+    },
+    "beneficiaries": {
+      "list": [],
+      "updatedAt": ""
+    }
+  },
+  "status": 200
+}

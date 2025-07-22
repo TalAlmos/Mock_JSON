@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "message": "OK",
+  "transId": "string",
+  "entity": "MyMoneyResponse",
+  "response": {
+    "topHeader": {
+      "sumSaving": null,
+      "numSavingChannel": 0,
+      "monthChange": {
+        "value": 0,
+        "sign": "%"
+      },
+      "sumMonthChange": {
+        "value": 0,
+        "currency": "₪"
+      },
+      "accumulateChange": {
+        "value": 0,
+        "currency": "₪"
+      }
+    },
+    "mainHeader": {
+      "date": null,
+      "totalSaving": null,
+      "fluentWithdraw": null,
+      "expectedForRetirement": null,
+      "savingExpectedForRetirement": null
+    },
+    "accumulationByProduct": {
+      "list": []
+    },
+    "productList": {
+      "list": []
+    },
+    "lastActions": {
+      "list": []
+    }
+  }
+}

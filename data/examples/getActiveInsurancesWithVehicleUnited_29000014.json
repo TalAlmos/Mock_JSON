@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "message": "OK",
+  "transId": "string",
+  "entity": "vehicleUnitedEntity",
+  "response": [
+    {
+      "id": "travel",
+      "data": [
+        {
+          "policyId": "268880709666756",
+          "insuranceType": "ביטוח נסיעות לחו\"ל",
+          "policyName": "ביטוח נסיעות לחו\"ל",
+          "endDate": "11.04.26",
+          "startDate": "28.03.26",
+          "description": "SMART TRAVEL",
+          "isExpired": true,
+          "isActive": true,
+          "destination": "אסיה",
+          "isSmart": false,
+          "insuredName": "מיכל רענן",
+          "beneficiariesCount": 1,
+          "AgentNumber": 35232
+        }
+      ]
+    }
+  ]
+}

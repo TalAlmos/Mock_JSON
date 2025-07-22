@@ -1,0 +1,98 @@
+{
+  "message": "",
+  "response": {
+    "status": 200,
+    "message": "OK",
+    "transId": "default",
+    "entity": "WebTravelCoversByNumResponse",
+    "response": {
+      "basicCoverage": {
+        "insuredList": null,
+        "extraData": null,
+        "allInsured": true
+      },
+      "loggage": {
+        "insuredList": null,
+        "extraData": null,
+        "allInsured": true
+      },
+      "searchRescue": {
+        "insuredList": null,
+        "extraData": null,
+        "allInsured": true
+      },
+      "corona": {
+        "insuredList": [
+          "לי",
+          "איתן",
+          "שי",
+          "עומר"
+        ],
+        "extraData": null,
+        "allInsured": true
+      },
+      "extremeSport": {
+        "insuredList": [
+          "לי",
+          "איתן",
+          "שי",
+          "עומר"
+        ],
+        "extraData": [
+          {
+            "startDate": "31/03/2026",
+            "endDate": "14/04/2026"
+          },
+          {
+            "startDate": "31/03/2026",
+            "endDate": "14/04/2026"
+          },
+          {
+            "startDate": "31/03/2026",
+            "endDate": "14/04/2026"
+          },
+          {
+            "startDate": "31/03/2026",
+            "endDate": "14/04/2026"
+          }
+        ],
+        "allInsured": true
+      },
+      "mobilePhone": {
+        "insuredList": [
+          "איתן"
+        ],
+        "extraData": [
+          {
+            "owner": "איתן",
+            "model": "אייפון 15 פרו"
+          }
+        ],
+        "allInsured": false
+      },
+      "laptopOrTablet": {
+        "insuredList": [
+          "איתן"
+        ],
+        "extraData": [
+          {
+            "owner": "איתן",
+            "model": "MEC BOOK AIR"
+          }
+        ],
+        "allInsured": false
+      },
+      "cancelOrDelay": {
+        "insuredList": [
+          "לי",
+          "איתן",
+          "שי",
+          "עומר"
+        ],
+        "extraData": null,
+        "allInsured": true
+      }
+    }
+  },
+  "status": 200
+}

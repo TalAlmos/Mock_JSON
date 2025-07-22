@@ -1,0 +1,209 @@
+{
+  "status": null,
+  "message": "OK",
+  "transId": "string",
+  "entity": "vehicleUnitedEntity",
+  "response": [
+    {
+      "id": "vehicle",
+      "data": []
+    },
+    {
+      "id": "vehicleUnited",
+      "data": [
+        {
+          "vehicleUnitedDetail": {
+            "insuranceDetails": {
+              "updatedAt": "08.01.25",
+              "startDate": "01.02.25",
+              "endDate": "31.01.26",
+              "originalEndDate": "2026-01-31T00:00:00",
+              "originalStartDate": "2025-02-01T00:00:00",
+              "premia": {
+                "value": 3899,
+                "currency": "₪"
+              },
+              "list": [
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.02.25",
+                  "endDate": "31.01.26",
+                  "policySubType": "makif",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 2375
+                  },
+                  "claimsList": []
+                },
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.02.25",
+                  "endDate": "31.01.26",
+                  "policySubType": "hova",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 1524
+                  },
+                  "claimsList": []
+                }
+              ]
+            },
+            "payments": {
+              "payedSum": {
+                "value": 1959,
+                "currency": "₪"
+              },
+              "balanceSum": {
+                "value": 1940,
+                "currency": "₪"
+              },
+              "payedList": {
+                "list": [
+                  {
+                    "date": "05.06.2025",
+                    "method": "אשראי 1928",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 394,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.06.2025",
+                        "method": "אשראי 1928",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 242,
+                          "currency": "₪"
+                        }
+                      },
+                      {
+                        "paymentNo": null,
+                        "date": "05.06.2025",
+                        "method": "אשראי 1928",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 152,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "01.07.2025",
+                    "method": "אמריקן אקספרס 1928",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 241,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "01.07.2025",
+                        "method": "אמריקן אקספרס 1928",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 241,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "05.07.2025",
+                    "method": "אשראי 1928",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 152,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.07.2025",
+                        "method": "אשראי 1928",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 152,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "agentDetails": [
+              {
+                "name": "הפניקס SMART",
+                "address": "דרך השלום 53 גבעתיים 53454",
+                "phone": "0778888888"
+              }
+            ],
+            "authorizedDrivers": [
+              {
+                "firstName": "לאוניד",
+                "lastName": "דמיטריאנקו"
+              },
+              {
+                "firstName": "מירי",
+                "lastName": "רבינוביץ"
+              }
+            ],
+            "serviceList": [],
+            "treatmentSubjects": [],
+            "licenseEndDate": "07.12.25",
+            "youngerDriverAge": "51"
+          },
+          "insuranceType": "מקיף + חובה",
+          "modelType": "יונדאי ERIPSNI  30-I",
+          "licensePlate": "1001511",
+          "isExpired": true,
+          "isActive": true,
+          "list": [
+            {
+              "policyId": "250537696041562",
+              "insuranceType": "מסלול באחריות",
+              "policyName": "ביטוח לרכב פרטי",
+              "endDate": "31.01.26",
+              "startDate": "01.02.25",
+              "modelType": "יונדאי ERIPSNI  30-I",
+              "licensePlate": "1001511",
+              "classification": "אישי",
+              "carPolicyType": "makif",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "41",
+              "validityTime": "01.02.2025",
+              "isSmart": true,
+              "AgentNumber": 64096
+            },
+            {
+              "policyId": "250976654155362",
+              "insuranceType": "",
+              "policyName": "ביטוח חובה לרכב פרטי",
+              "endDate": "31.01.26",
+              "startDate": "01.02.25",
+              "modelType": "יונדאי ERIPSNI  30-I",
+              "licensePlate": "1001511",
+              "classification": "אישי",
+              "carPolicyType": "hova",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "541",
+              "validityTime": "01.02.2025",
+              "isSmart": true,
+              "AgentNumber": 64096
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

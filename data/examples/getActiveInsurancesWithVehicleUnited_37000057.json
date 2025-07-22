@@ -1,0 +1,311 @@
+{
+  "status": null,
+  "message": "OK",
+  "transId": "string",
+  "entity": "vehicleUnitedEntity",
+  "response": [
+    {
+      "id": "life",
+      "data": []
+    },
+    {
+      "id": "vehicle",
+      "data": [
+        {
+          "policyId": "250211029611263",
+          "insuranceType": "ביטוח צד ג' ללא ביטול הש",
+          "policyName": "ביטוח נהג צעיר",
+          "endDate": "31.01.26",
+          "startDate": "13.02.25",
+          "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+          "licensePlate": "0",
+          "classification": "אישי",
+          "carPolicyType": "makif",
+          "isExpired": true,
+          "isActive": true,
+          "sectorId": "112",
+          "validityTime": "13.02.2025",
+          "isSmart": true,
+          "AgentNumber": 64096
+        }
+      ]
+    },
+    {
+      "id": "dira",
+      "data": [
+        {
+          "policyId": "257116280961652",
+          "insuranceType": "ביטוח מקיף לדירות ולבתי עסק, לרבות ביטוח זכוכית",
+          "policyName": "ביטוח דירה",
+          "endDate": "31.12.25",
+          "startDate": "01.01.25",
+          "description": "SMART HOME",
+          "isExpired": true,
+          "isActive": true,
+          "isSmart": true,
+          "address": "אשכנזי 23, יהוד-מונוסון",
+          "AgentNumber": 64096
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "data": [
+        {
+          "policyId": "4708715397",
+          "insuranceType": "פרט",
+          "originalPolicyName": "פרט",
+          "policyName": "ביטוח בריאות",
+          "startDate": "01.11.19",
+          "insuredName": "דולב",
+          "beneficiariesCount": 0,
+          "isPaila": false,
+          "isExpired": false,
+          "AgentNumber": 5054,
+          "isActive": true
+        },
+        {
+          "policyId": "2408518180",
+          "insuranceType": "פרט",
+          "originalPolicyName": "פרט",
+          "policyName": "ביטוח בריאות",
+          "startDate": "01.03.22",
+          "insuredName": "חיי",
+          "beneficiariesCount": 1,
+          "isPaila": false,
+          "isExpired": false,
+          "AgentNumber": 5054,
+          "isActive": true
+        },
+        {
+          "policyId": "8090138515",
+          "insuranceType": "פרט",
+          "originalPolicyName": "פרט",
+          "policyName": "ביטוח בריאות",
+          "startDate": "01.12.15",
+          "insuredName": "",
+          "beneficiariesCount": 1,
+          "isPaila": false,
+          "isExpired": false,
+          "AgentNumber": 78666,
+          "isActive": true
+        }
+      ]
+    },
+    {
+      "id": "dental",
+      "data": [
+        {
+          "policyId": "546965310351",
+          "policyName": "ביטוח שיניים",
+          "startDate": "01.04.24",
+          "endDate": "30.04.27",
+          "insuredName": "",
+          "beneficiariesCount": 4,
+          "classification": "הפניקס 2022",
+          "originalPolicyName": "הפניקס 2022",
+          "collectiveNumber": "14192",
+          "isExpired": true,
+          "isActive": true
+        }
+      ]
+    },
+    {
+      "id": "vehicleUnited",
+      "data": [
+        {
+          "vehicleUnitedDetail": {
+            "insuranceDetails": {
+              "updatedAt": "26.02.25",
+              "startDate": "01.03.25",
+              "endDate": "28.02.26",
+              "originalEndDate": "2026-02-28T00:00:00",
+              "originalStartDate": "2025-03-01T00:00:00",
+              "premia": {
+                "value": 4645,
+                "currency": "₪"
+              },
+              "list": [
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.03.25",
+                  "endDate": "28.02.26",
+                  "policySubType": "makif",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 2741
+                  },
+                  "claimsList": []
+                },
+                {
+                  "requiredRenewal": true,
+                  "startDate": "01.03.25",
+                  "endDate": "28.02.26",
+                  "policySubType": "hova",
+                  "premia": {
+                    "currency": "₪",
+                    "value": 1904
+                  },
+                  "claimsList": []
+                }
+              ]
+            },
+            "payments": {
+              "payedSum": {
+                "value": 3168,
+                "currency": "₪"
+              },
+              "balanceSum": {
+                "value": 1477,
+                "currency": "₪"
+              },
+              "payedList": {
+                "list": [
+                  {
+                    "date": "05.06.2025",
+                    "method": "אשראי 0363",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 928,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.06.2025",
+                        "method": "אשראי 0363",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 548,
+                          "currency": "₪"
+                        }
+                      },
+                      {
+                        "paymentNo": null,
+                        "date": "05.06.2025",
+                        "method": "אשראי 0363",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 380,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "01.07.2025",
+                    "method": "ישראכרט 0363",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 548,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "01.07.2025",
+                        "method": "ישראכרט 0363",
+                        "totalPayments": "",
+                        "policySubType": "makif",
+                        "amount": {
+                          "value": 548,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "date": "05.07.2025",
+                    "method": "אשראי 0363",
+                    "paymentType": "חיוב",
+                    "amount": {
+                      "value": 380,
+                      "currency": "₪"
+                    },
+                    "details": [
+                      {
+                        "paymentNo": null,
+                        "date": "05.07.2025",
+                        "method": "אשראי 0363",
+                        "totalPayments": "",
+                        "policySubType": "hova",
+                        "amount": {
+                          "value": 380,
+                          "currency": "₪"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "agentDetails": [
+              {
+                "name": "הפניקס SMART",
+                "address": "דרך השלום 53 גבעתיים 53454",
+                "phone": "0778888888"
+              }
+            ],
+            "authorizedDrivers": [
+              {
+                "firstName": "ירון",
+                "lastName": "שושן"
+              },
+              {
+                "firstName": "שני",
+                "lastName": "לרר"
+              }
+            ],
+            "serviceList": [],
+            "treatmentSubjects": [],
+            "licenseEndDate": "24.10.25",
+            "youngerDriverAge": null
+          },
+          "insuranceType": "מקיף + חובה",
+          "modelType": "יונדאי 35IXPRIME",
+          "licensePlate": "4606031",
+          "isExpired": true,
+          "isActive": true,
+          "list": [
+            {
+              "policyId": "256534370960412",
+              "insuranceType": "מסלול באחריות",
+              "policyName": "ביטוח לרכב פרטי",
+              "endDate": "28.02.26",
+              "startDate": "01.03.25",
+              "modelType": "יונדאי 35IXPRIME",
+              "licensePlate": "4606031",
+              "classification": "אישי",
+              "carPolicyType": "makif",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "41",
+              "validityTime": "01.03.2025",
+              "isSmart": true,
+              "AgentNumber": 64096
+            },
+            {
+              "policyId": "250653437296541",
+              "insuranceType": "",
+              "policyName": "ביטוח חובה לרכב פרטי",
+              "endDate": "28.02.26",
+              "startDate": "01.03.25",
+              "modelType": "יונדאי 35IXPRIME",
+              "licensePlate": "4606031",
+              "classification": "אישי",
+              "carPolicyType": "hova",
+              "isExpired": true,
+              "isActive": true,
+              "sectorId": "541",
+              "validityTime": "01.03.2025",
+              "isSmart": true,
+              "AgentNumber": 64096
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

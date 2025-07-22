@@ -1,0 +1,1848 @@
+{
+    "openapi": "3.0.0",
+    "components": {
+        "examples": {},
+        "headers": {},
+        "parameters": {},
+        "requestBodies": {},
+        "responses": {},
+        "schemas": {
+            "MoneyValue": {
+                "properties": {
+                    "value": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "currency": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "value",
+                    "currency"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "PercentValue": {
+                "properties": {
+                    "value": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "sign": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "value",
+                    "sign"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "TopHeader": {
+                "properties": {
+                    "sumSaving": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "numSavingChannel": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "monthChange": {
+                        "$ref": "#/components/schemas/PercentValue"
+                    },
+                    "sumMonthChange": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "accumulateChange": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    }
+                },
+                "required": [
+                    "sumSaving",
+                    "numSavingChannel",
+                    "monthChange",
+                    "sumMonthChange",
+                    "accumulateChange"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "MainHeader": {
+                "properties": {
+                    "date": {
+                        "type": "string"
+                    },
+                    "totalSaving": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "fluentWithdraw": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/MoneyValue"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "expectedForRetirement": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "savingExpectedForRetirement": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/MoneyValue"
+                            }
+                        ],
+                        "nullable": true
+                    }
+                },
+                "required": [
+                    "date",
+                    "totalSaving",
+                    "fluentWithdraw",
+                    "expectedForRetirement",
+                    "savingExpectedForRetirement"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "AccumulationProduct": {
+                "properties": {
+                    "policyType": {
+                        "type": "string"
+                    },
+                    "savingSum": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "fluentSum": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/MoneyValue"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "eligibilityDate": {
+                        "type": "string"
+                    },
+                    "expectedForRetirement": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/MoneyValue"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "notUsedForRetirement": {
+                        "type": "boolean"
+                    },
+                    "policyIds": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array"
+                    },
+                    "updateDate": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "policyType",
+                    "savingSum",
+                    "fluentSum",
+                    "eligibilityDate",
+                    "expectedForRetirement",
+                    "notUsedForRetirement",
+                    "policyIds",
+                    "updateDate"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "PolicyStatus": {
+                "properties": {
+                    "status": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "statusDesc": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "status",
+                    "statusDesc"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "LastDeposit": {
+                "properties": {
+                    "lastDepositsSum": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "lastDepositsDate": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "lastDepositsSum",
+                    "lastDepositsDate"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "MyMoneyManagementFee": {
+                "properties": {
+                    "fromDeposit": {
+                        "$ref": "#/components/schemas/PercentValue"
+                    },
+                    "fromSaving": {
+                        "$ref": "#/components/schemas/PercentValue"
+                    }
+                },
+                "required": [
+                    "fromDeposit",
+                    "fromSaving"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ProductData": {
+                "properties": {
+                    "savingSum": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "yieldBeginningYear": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/PercentValue"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "lastDeposit": {
+                        "$ref": "#/components/schemas/LastDeposit"
+                    },
+                    "depositedThisYear": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/MoneyValue"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "availableWithdraw": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/MoneyValue"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "withdrawDate": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "managementFee": {
+                        "$ref": "#/components/schemas/MyMoneyManagementFee"
+                    },
+                    "yieldFromYearBeginningTotal": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/PercentValue"
+                            }
+                        ],
+                        "nullable": true
+                    }
+                },
+                "required": [
+                    "savingSum",
+                    "yieldBeginningYear",
+                    "lastDeposit",
+                    "depositedThisYear",
+                    "availableWithdraw",
+                    "withdrawDate",
+                    "managementFee",
+                    "yieldFromYearBeginningTotal"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "MyMoneyInvestmentRoute": {
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "joinDate": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "percent": {
+                        "$ref": "#/components/schemas/PercentValue"
+                    },
+                    "yieldBeginningYear": {
+                        "$ref": "#/components/schemas/PercentValue"
+                    },
+                    "managementFeeFromDeposit": {
+                        "$ref": "#/components/schemas/PercentValue"
+                    },
+                    "managementFeeFromSaving": {
+                        "$ref": "#/components/schemas/PercentValue"
+                    },
+                    "accumulation": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "basketCode": {
+                        "type": "string"
+                    },
+                    "isYieldHidden": {
+                        "type": "boolean",
+                        "nullable": true
+                    },
+                    "dailyUpdateDate": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "required": [
+                    "name",
+                    "joinDate",
+                    "percent",
+                    "yieldBeginningYear",
+                    "managementFeeFromDeposit",
+                    "managementFeeFromSaving",
+                    "accumulation",
+                    "basketCode",
+                    "isYieldHidden",
+                    "dailyUpdateDate"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "Policy": {
+                "properties": {
+                    "policyId": {
+                        "type": "string"
+                    },
+                    "originalPolicyName": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "policyNickname": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "subType": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "status": {
+                        "$ref": "#/components/schemas/PolicyStatus"
+                    },
+                    "updateTo": {
+                        "type": "string"
+                    },
+                    "dailyUpdateTo": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "yieldUpdateDate": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "dailyYieldUpdateDate": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "hasProfitsShare": {
+                        "type": "boolean",
+                        "nullable": true
+                    },
+                    "productData": {
+                        "$ref": "#/components/schemas/ProductData"
+                    },
+                    "investmentRoutes": {
+                        "items": {
+                            "$ref": "#/components/schemas/MyMoneyInvestmentRoute"
+                        },
+                        "type": "array"
+                    },
+                    "tsuotPopup": {
+                        "nullable": true
+                    },
+                    "isNew": {
+                        "type": "boolean",
+                        "nullable": true
+                    }
+                },
+                "required": [
+                    "policyId",
+                    "originalPolicyName",
+                    "policyNickname",
+                    "subType",
+                    "status",
+                    "updateTo",
+                    "dailyUpdateTo",
+                    "yieldUpdateDate",
+                    "dailyYieldUpdateDate",
+                    "hasProfitsShare",
+                    "productData",
+                    "investmentRoutes",
+                    "tsuotPopup",
+                    "isNew"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ProductType": {
+                "properties": {
+                    "policyType": {
+                        "type": "string"
+                    },
+                    "policyList": {
+                        "items": {
+                            "$ref": "#/components/schemas/Policy"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "policyType",
+                    "policyList"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "MyMoneyResponse": {
+                "properties": {
+                    "status": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "number",
+                                "format": "double"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "message": {
+                        "type": "string"
+                    },
+                    "transId": {
+                        "type": "string"
+                    },
+                    "entity": {
+                        "type": "string"
+                    },
+                    "response": {
+                        "$ref": "#/components/schemas/MyMoneyResponse"
+                    },
+                    "topHeader": {
+                        "$ref": "#/components/schemas/TopHeader"
+                    },
+                    "mainHeader": {
+                        "$ref": "#/components/schemas/MainHeader"
+                    },
+                    "accumulationByProduct": {
+                        "properties": {
+                            "list": {
+                                "items": {
+                                    "$ref": "#/components/schemas/AccumulationProduct"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "list"
+                        ],
+                        "type": "object"
+                    },
+                    "productList": {
+                        "properties": {
+                            "list": {
+                                "items": {
+                                    "$ref": "#/components/schemas/ProductType"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "list"
+                        ],
+                        "type": "object"
+                    },
+                    "lastActions": {
+                        "properties": {
+                            "list": {
+                                "items": {},
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "list"
+                        ],
+                        "type": "object"
+                    }
+                },
+                "required": [
+                    "status",
+                    "message",
+                    "response",
+                    "topHeader",
+                    "mainHeader",
+                    "accumulationByProduct",
+                    "productList",
+                    "lastActions"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "MyMoneyRequest": {
+                "properties": {
+                    "clientId": {
+                        "type": "string"
+                    },
+                    "clientCode": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "clientId",
+                    "clientCode"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "GeneralDetails": {
+                "properties": {
+                    "policyName": {
+                        "type": "string"
+                    },
+                    "policyNickname": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "policyNumber": {
+                        "type": "string"
+                    },
+                    "updatedAt": {
+                        "type": "string"
+                    },
+                    "startDate": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "kiumRechivSachir": {
+                        "type": "boolean"
+                    },
+                    "name": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "isNew": {
+                        "type": "boolean"
+                    },
+                    "isSeif14": {
+                        "type": "boolean"
+                    },
+                    "dataSource": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "required": [
+                    "policyName",
+                    "policyNickname",
+                    "policyNumber",
+                    "updatedAt",
+                    "startDate",
+                    "kiumRechivSachir",
+                    "name",
+                    "isNew",
+                    "isSeif14",
+                    "dataSource"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "NoticeUpdateGeneralDetails": {
+                "properties": {
+                    "startDate": {
+                        "type": "string"
+                    },
+                    "oldAccountNumber": {
+                        "type": "string"
+                    },
+                    "employerName": {
+                        "type": "string"
+                    },
+                    "withdrawDate": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "establishmentDate": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "required": [
+                    "startDate",
+                    "oldAccountNumber",
+                    "employerName",
+                    "withdrawDate",
+                    "establishmentDate"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "NoticeUpdate": {
+                "properties": {
+                    "generalDetails": {
+                        "$ref": "#/components/schemas/NoticeUpdateGeneralDetails"
+                    },
+                    "treatmentSubjects": {
+                        "items": {},
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "generalDetails",
+                    "treatmentSubjects"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "AccountTransactionItem": {
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "subTitle": {
+                        "type": "string"
+                    },
+                    "sum": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/MoneyValue"
+                            }
+                        ],
+                        "nullable": true
+                    }
+                },
+                "required": [
+                    "title",
+                    "sum"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "AccountTransactionYear": {
+                "properties": {
+                    "year": {
+                        "type": "string"
+                    },
+                    "updateDate": {
+                        "type": "string"
+                    },
+                    "list": {
+                        "items": {
+                            "$ref": "#/components/schemas/AccountTransactionItem"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "year",
+                    "updateDate",
+                    "list"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "AccountTransactions": {
+                "properties": {
+                    "updateDate": {
+                        "type": "string"
+                    },
+                    "totalSum": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "dailySum": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "oneTimeWithdrawDate": {
+                        "type": "string"
+                    },
+                    "oneTimeWithdrawDateIsOver": {
+                        "type": "boolean"
+                    },
+                    "list": {
+                        "items": {
+                            "$ref": "#/components/schemas/AccountTransactionYear"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "updateDate",
+                    "totalSum",
+                    "dailySum",
+                    "oneTimeWithdrawDate",
+                    "oneTimeWithdrawDateIsOver",
+                    "list"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "YearlyDepositYear": {
+                "properties": {
+                    "year": {
+                        "type": "string"
+                    },
+                    "updateDate": {
+                        "type": "string"
+                    },
+                    "list": {
+                        "items": {},
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "year",
+                    "updateDate",
+                    "list"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "Deposits": {
+                "properties": {
+                    "dailyDeposits": {
+                        "properties": {
+                            "list": {
+                                "items": {},
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "list"
+                        ],
+                        "type": "object"
+                    },
+                    "yearlyDeposits": {
+                        "properties": {
+                            "list": {
+                                "items": {
+                                    "$ref": "#/components/schemas/YearlyDepositYear"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "list"
+                        ],
+                        "type": "object"
+                    }
+                },
+                "required": [
+                    "dailyDeposits",
+                    "yearlyDeposits"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "PercentageData": {
+                "properties": {
+                    "value": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "sign": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "value",
+                    "sign"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ManagementFeePercentage": {
+                "properties": {
+                    "percentageData": {
+                        "$ref": "#/components/schemas/PercentageData"
+                    }
+                },
+                "required": [
+                    "percentageData"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ManagementFeeUpdated": {
+                "properties": {
+                    "percentageData": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/PercentageData"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "popupData": {
+                        "properties": {
+                            "list": {
+                                "items": {},
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "list"
+                        ],
+                        "type": "object"
+                    }
+                },
+                "required": [
+                    "percentageData"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ExcellenceSavingManagementFee": {
+                "properties": {
+                    "percentageMngFee": {
+                        "properties": {
+                            "fromSaving": {
+                                "$ref": "#/components/schemas/ManagementFeePercentage"
+                            },
+                            "fromDeposit": {
+                                "$ref": "#/components/schemas/ManagementFeePercentage"
+                            },
+                            "updateDate": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "fromSaving",
+                            "fromDeposit",
+                            "updateDate"
+                        ],
+                        "type": "object"
+                    },
+                    "updatedMngFee": {
+                        "properties": {
+                            "fromSaving": {
+                                "$ref": "#/components/schemas/ManagementFeeUpdated"
+                            },
+                            "fromDeposit": {
+                                "properties": {
+                                    "percentageData": {
+                                        "allOf": [
+                                            {
+                                                "$ref": "#/components/schemas/PercentageData"
+                                            }
+                                        ],
+                                        "nullable": true
+                                    }
+                                },
+                                "required": [
+                                    "percentageData"
+                                ],
+                                "type": "object"
+                            },
+                            "updateDate": {
+                                "type": "string",
+                                "nullable": true
+                            }
+                        },
+                        "required": [
+                            "fromSaving",
+                            "fromDeposit",
+                            "updateDate"
+                        ],
+                        "type": "object"
+                    }
+                },
+                "required": [
+                    "percentageMngFee",
+                    "updatedMngFee"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "YearCostPredictionItem": {
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "savingFee": {
+                        "$ref": "#/components/schemas/PercentageData"
+                    },
+                    "depositFee": {
+                        "$ref": "#/components/schemas/PercentageData"
+                    },
+                    "expenseCommission": {
+                        "$ref": "#/components/schemas/PercentageData"
+                    },
+                    "expenseNonCommission": {
+                        "$ref": "#/components/schemas/PercentageData"
+                    },
+                    "yearCostPrediction": {
+                        "$ref": "#/components/schemas/PercentageData"
+                    }
+                },
+                "required": [
+                    "title",
+                    "savingFee",
+                    "depositFee",
+                    "expenseCommission",
+                    "expenseNonCommission",
+                    "yearCostPrediction"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "YearCostPrediction": {
+                "properties": {
+                    "updateDate": {
+                        "type": "string"
+                    },
+                    "list": {
+                        "items": {
+                            "$ref": "#/components/schemas/YearCostPredictionItem"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "updateDate",
+                    "list"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ExcellenceSavingInvestmentRoute": {
+                "properties": {
+                    "yieldPercentage": {
+                        "$ref": "#/components/schemas/PercentageData"
+                    },
+                    "investmentRouteTitle": {
+                        "type": "string"
+                    },
+                    "investmentSum": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "updateDate": {
+                        "type": "string"
+                    },
+                    "tsuotLastUpdateDate": {
+                        "type": "string"
+                    },
+                    "periodicRoute": {
+                        "nullable": true
+                    },
+                    "isExistRoute": {
+                        "type": "boolean"
+                    },
+                    "investmentPercent": {
+                        "$ref": "#/components/schemas/PercentageData"
+                    },
+                    "dailyYieldUpdateDate": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "yieldPercentage",
+                    "investmentRouteTitle",
+                    "investmentSum",
+                    "updateDate",
+                    "tsuotLastUpdateDate",
+                    "periodicRoute",
+                    "isExistRoute",
+                    "investmentPercent",
+                    "dailyYieldUpdateDate"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "InvestmentRoutesTransferConcentration": {
+                "properties": {
+                    "investmentRoutes": {
+                        "properties": {
+                            "transferConcentration": {
+                                "properties": {
+                                    "updatedAt": {
+                                        "type": "string"
+                                    },
+                                    "list": {
+                                        "items": {},
+                                        "type": "array"
+                                    }
+                                },
+                                "required": [
+                                    "updatedAt",
+                                    "list"
+                                ],
+                                "type": "object"
+                            },
+                            "list": {
+                                "items": {
+                                    "$ref": "#/components/schemas/ExcellenceSavingInvestmentRoute"
+                                },
+                                "type": "array"
+                            },
+                            "updateDate": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "transferConcentration",
+                            "list",
+                            "updateDate"
+                        ],
+                        "type": "object"
+                    }
+                },
+                "required": [
+                    "investmentRoutes"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ExpectedPayment": {
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "subTitle": {
+                        "type": "string"
+                    },
+                    "sum": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    }
+                },
+                "required": [
+                    "title",
+                    "subTitle",
+                    "sum"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ExpectedPayments": {
+                "properties": {
+                    "updateDate": {
+                        "type": "string"
+                    },
+                    "list": {
+                        "items": {
+                            "$ref": "#/components/schemas/ExpectedPayment"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "updateDate",
+                    "list"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "Beneficiary": {
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "name"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "Beneficiaries": {
+                "properties": {
+                    "list": {
+                        "items": {
+                            "$ref": "#/components/schemas/Beneficiary"
+                        },
+                        "type": "array"
+                    },
+                    "updatedAt": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "list",
+                    "updatedAt"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ExcellenceSavingResponse": {
+                "properties": {
+                    "general": {
+                        "$ref": "#/components/schemas/GeneralDetails"
+                    },
+                    "noticeUpdate": {
+                        "$ref": "#/components/schemas/NoticeUpdate"
+                    },
+                    "accountTransactions": {
+                        "$ref": "#/components/schemas/AccountTransactions"
+                    },
+                    "deposits": {
+                        "$ref": "#/components/schemas/Deposits"
+                    },
+                    "managementFee": {
+                        "$ref": "#/components/schemas/ExcellenceSavingManagementFee"
+                    },
+                    "yearCostPrediction": {
+                        "$ref": "#/components/schemas/YearCostPrediction"
+                    },
+                    "investmentRoutesTransferConcentration": {
+                        "$ref": "#/components/schemas/InvestmentRoutesTransferConcentration"
+                    },
+                    "expectedPayments": {
+                        "$ref": "#/components/schemas/ExpectedPayments"
+                    },
+                    "beneficiaries": {
+                        "$ref": "#/components/schemas/Beneficiaries"
+                    }
+                },
+                "required": [
+                    "general",
+                    "noticeUpdate",
+                    "accountTransactions",
+                    "deposits",
+                    "managementFee",
+                    "yearCostPrediction",
+                    "investmentRoutesTransferConcentration",
+                    "expectedPayments",
+                    "beneficiaries"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ExcellenceSavingByNumResponse": {
+                "properties": {
+                    "status": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "number",
+                                "format": "double"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "message": {
+                        "type": "string"
+                    },
+                    "transId": {
+                        "type": "string"
+                    },
+                    "entity": {
+                        "type": "string"
+                    },
+                    "response": {
+                        "$ref": "#/components/schemas/ExcellenceSavingResponse"
+                    }
+                },
+                "required": [
+                    "status",
+                    "message",
+                    "response"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ErrorResponse": {
+                "properties": {
+                    "response": {
+                        "type": "string"
+                    },
+                    "status": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "message": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "status"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ExcellenceSavingRequest": {
+                "properties": {
+                    "clientId": {
+                        "type": "string"
+                    },
+                    "savingNum": {
+                        "type": "string"
+                    },
+                    "isNew": {
+                        "type": "boolean"
+                    }
+                },
+                "required": [
+                    "clientId",
+                    "savingNum",
+                    "isNew"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "VehicleEntity": {
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "data": {
+                        "items": {},
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "id",
+                    "data"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "InsurancePolicy": {
+                "properties": {
+                    "requiredRenewal": {
+                        "type": "boolean"
+                    },
+                    "startDate": {
+                        "type": "string"
+                    },
+                    "endDate": {
+                        "type": "string"
+                    },
+                    "policySubType": {
+                        "type": "string"
+                    },
+                    "premia": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "claimsList": {
+                        "items": {},
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "requiredRenewal",
+                    "startDate",
+                    "endDate",
+                    "policySubType",
+                    "premia",
+                    "claimsList"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "PaymentTrack": {
+                "properties": {
+                    "policySubType": {
+                        "type": "string"
+                    },
+                    "totalPayments": {
+                        "type": "string"
+                    },
+                    "payed": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "policySubType",
+                    "totalPayments",
+                    "payed"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "PaymentDetail": {
+                "properties": {
+                    "paymentNo": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "date": {
+                        "type": "string"
+                    },
+                    "method": {
+                        "type": "string"
+                    },
+                    "totalPayments": {
+                        "type": "string"
+                    },
+                    "policySubType": {
+                        "type": "string"
+                    },
+                    "amount": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    }
+                },
+                "required": [
+                    "paymentNo",
+                    "date",
+                    "method",
+                    "totalPayments",
+                    "policySubType",
+                    "amount"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "PaymentItem": {
+                "properties": {
+                    "date": {
+                        "type": "string"
+                    },
+                    "method": {
+                        "type": "string"
+                    },
+                    "paymentType": {
+                        "type": "string"
+                    },
+                    "amount": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "details": {
+                        "items": {
+                            "$ref": "#/components/schemas/PaymentDetail"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "date",
+                    "method",
+                    "paymentType",
+                    "amount",
+                    "details"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "Payments": {
+                "properties": {
+                    "payedTrack": {
+                        "items": {
+                            "$ref": "#/components/schemas/PaymentTrack"
+                        },
+                        "type": "array"
+                    },
+                    "payedSum": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "balanceSum": {
+                        "$ref": "#/components/schemas/MoneyValue"
+                    },
+                    "payedList": {
+                        "properties": {
+                            "list": {
+                                "items": {
+                                    "$ref": "#/components/schemas/PaymentItem"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "list"
+                        ],
+                        "type": "object"
+                    }
+                },
+                "required": [
+                    "payedTrack",
+                    "payedSum",
+                    "balanceSum",
+                    "payedList"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "AgentDetail": {
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    },
+                    "phone": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "name",
+                    "address",
+                    "phone"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "AuthorizedDriver": {
+                "properties": {
+                    "firstName": {
+                        "type": "string"
+                    },
+                    "lastName": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "firstName",
+                    "lastName"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ServiceItem": {
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "phone": {
+                        "type": "string"
+                    },
+                    "eSite": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "required": [
+                    "type",
+                    "name",
+                    "phone",
+                    "eSite"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "VehicleUnitedDetail": {
+                "properties": {
+                    "insuranceDetails": {
+                        "properties": {
+                            "list": {
+                                "items": {
+                                    "$ref": "#/components/schemas/InsurancePolicy"
+                                },
+                                "type": "array"
+                            },
+                            "premia": {
+                                "$ref": "#/components/schemas/MoneyValue"
+                            },
+                            "originalStartDate": {
+                                "type": "string"
+                            },
+                            "originalEndDate": {
+                                "type": "string"
+                            },
+                            "endDate": {
+                                "type": "string"
+                            },
+                            "startDate": {
+                                "type": "string"
+                            },
+                            "updatedAt": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "list",
+                            "premia",
+                            "originalStartDate",
+                            "originalEndDate",
+                            "endDate",
+                            "startDate",
+                            "updatedAt"
+                        ],
+                        "type": "object"
+                    },
+                    "payments": {
+                        "$ref": "#/components/schemas/Payments"
+                    },
+                    "agentDetails": {
+                        "items": {
+                            "$ref": "#/components/schemas/AgentDetail"
+                        },
+                        "type": "array"
+                    },
+                    "authorizedDrivers": {
+                        "items": {
+                            "$ref": "#/components/schemas/AuthorizedDriver"
+                        },
+                        "type": "array"
+                    },
+                    "serviceList": {
+                        "items": {
+                            "$ref": "#/components/schemas/ServiceItem"
+                        },
+                        "type": "array"
+                    },
+                    "treatmentSubjects": {
+                        "items": {},
+                        "type": "array"
+                    },
+                    "licenseEndDate": {
+                        "type": "string"
+                    },
+                    "youngerDriverAge": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "insuranceDetails",
+                    "payments",
+                    "agentDetails",
+                    "authorizedDrivers",
+                    "serviceList",
+                    "treatmentSubjects",
+                    "licenseEndDate",
+                    "youngerDriverAge"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "PolicyItem": {
+                "properties": {
+                    "policyId": {
+                        "type": "string"
+                    },
+                    "insuranceType": {
+                        "type": "string"
+                    },
+                    "policyName": {
+                        "type": "string"
+                    },
+                    "endDate": {
+                        "type": "string"
+                    },
+                    "startDate": {
+                        "type": "string"
+                    },
+                    "modelType": {
+                        "type": "string"
+                    },
+                    "licensePlate": {
+                        "type": "string"
+                    },
+                    "classification": {
+                        "type": "string"
+                    },
+                    "carPolicyType": {
+                        "type": "string"
+                    },
+                    "isExpired": {
+                        "type": "boolean"
+                    },
+                    "isActive": {
+                        "type": "boolean"
+                    },
+                    "sectorId": {
+                        "type": "string"
+                    },
+                    "validityTime": {
+                        "type": "string"
+                    },
+                    "isSmart": {
+                        "type": "boolean"
+                    },
+                    "AgentNumber": {
+                        "type": "number",
+                        "format": "double"
+                    }
+                },
+                "required": [
+                    "policyId",
+                    "insuranceType",
+                    "policyName",
+                    "endDate",
+                    "startDate",
+                    "modelType",
+                    "licensePlate",
+                    "classification",
+                    "carPolicyType",
+                    "isExpired",
+                    "isActive",
+                    "sectorId",
+                    "validityTime",
+                    "isSmart",
+                    "AgentNumber"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "VehicleUnitedData": {
+                "properties": {
+                    "vehicleUnitedDetail": {
+                        "$ref": "#/components/schemas/VehicleUnitedDetail"
+                    },
+                    "insuranceType": {
+                        "type": "string"
+                    },
+                    "modelType": {
+                        "type": "string"
+                    },
+                    "licensePlate": {
+                        "type": "string"
+                    },
+                    "isExpired": {
+                        "type": "boolean"
+                    },
+                    "isActive": {
+                        "type": "boolean"
+                    },
+                    "list": {
+                        "items": {
+                            "$ref": "#/components/schemas/PolicyItem"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "vehicleUnitedDetail",
+                    "insuranceType",
+                    "modelType",
+                    "licensePlate",
+                    "isExpired",
+                    "isActive",
+                    "list"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "VehicleUnitedEntity": {
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "data": {
+                        "items": {
+                            "$ref": "#/components/schemas/VehicleUnitedData"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "id",
+                    "data"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ActiveInsurancesWithVehicleUnitedResponse": {
+                "properties": {
+                    "status": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "number",
+                                "format": "double"
+                            }
+                        ],
+                        "nullable": true
+                    },
+                    "message": {
+                        "type": "string"
+                    },
+                    "transId": {
+                        "type": "string"
+                    },
+                    "entity": {
+                        "type": "string"
+                    },
+                    "response": {
+                        "items": {
+                            "anyOf": [
+                                {
+                                    "$ref": "#/components/schemas/VehicleEntity"
+                                },
+                                {
+                                    "$ref": "#/components/schemas/VehicleUnitedEntity"
+                                }
+                            ]
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "status",
+                    "message",
+                    "response"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            },
+            "ActiveInsurancesRequest": {
+                "properties": {
+                    "clientId": {
+                        "type": "string"
+                    },
+                    "clientCode": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "clientId",
+                    "clientCode"
+                ],
+                "type": "object",
+                "additionalProperties": true
+            }
+        },
+        "securitySchemes": {}
+    },
+    "info": {
+        "title": "tsoa-example",
+        "version": "0.0.1",
+        "description": "Phoenix Corp LTD",
+        "license": {
+            "name": "UNLICENSED"
+        },
+        "contact": {
+            "name": "phoenix corp ltd"
+        }
+    },
+    "paths": {
+        "/myMoney/getMyMoneyById": {
+            "post": {
+                "operationId": "GetMyMoneyById",
+                "responses": {
+                    "200": {
+                        "description": "Detailed financial information including savings, policies, and investments",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/MyMoneyResponse"
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Get client's money data by ID",
+                "tags": [
+                    "myMoney"
+                ],
+                "security": [],
+                "parameters": [],
+                "requestBody": {
+                    "description": "Request containing client ID and code",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/MyMoneyRequest",
+                                "description": "Request containing client ID and code"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/excellence/getExcellenceSavingByNum": {
+            "post": {
+                "operationId": "GetExcellenceSavingByNum",
+                "responses": {
+                    "200": {
+                        "description": "Ok",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ExcellenceSavingByNumResponse"
+                                        },
+                                        {
+                                            "$ref": "#/components/schemas/ErrorResponse"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "tags": [
+                    "excellence"
+                ],
+                "security": [],
+                "parameters": [],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ExcellenceSavingRequest"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/elementary/getActiveInsurancesWithVehicleUnited": {
+            "post": {
+                "operationId": "GetActiveInsurancesWithVehicleUnited",
+                "responses": {
+                    "200": {
+                        "description": "Ok",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/ActiveInsurancesWithVehicleUnitedResponse"
+                                        },
+                                        {
+                                            "$ref": "#/components/schemas/ErrorResponse"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "tags": [
+                    "elementary"
+                ],
+                "security": [],
+                "parameters": [],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ActiveInsurancesRequest"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "servers": [
+        {
+            "url": "portals-services-integ.fnx-np-core.com/mock"
+        }
+    ],
+    "maxResponses": 1,
+    "maxProperties": 100
+}
