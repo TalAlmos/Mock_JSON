@@ -1,2 +1,3 @@
 # Ignore confidential example data
-/data/examples/ 
+/data/examples/ venv/
+streamlit_gui/venv/
