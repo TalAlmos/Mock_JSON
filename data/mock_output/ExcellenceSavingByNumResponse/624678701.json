@@ -1,0 +1,343 @@
+{
+  "message": "",
+  "response": {
+    "general": {
+      "policyName": "פוליסת ביטוח",
+      "policyNickname": null,
+      "policyNumber": "001-001-683648 (5584863)",
+      "updatedAt": "21.06.2025",
+      "startDate": null,
+      "kiumRechivSachir": false,
+      "name": "יהונתן רחמים",
+      "isNew": false,
+      "isSeif14": true,
+      "dataSource": null
+    },
+    "noticeUpdate": {
+      "generalDetails": {
+        "startDate": "21.06.2025",
+        "oldAccountNumber": "733-00000000",
+        "employerName": "מועצה אזורית גוש עציון",
+        "withdrawDate": null,
+        "establishmentDate": null
+      },
+      "treatmentSubjects": []
+    },
+    "accountTransactions": {
+      "updateDate": "21.06.2025",
+      "totalSum": {
+        "value": 11690,
+        "currency": "₪"
+      },
+      "dailySum": {
+        "value": 10276,
+        "currency": "₪"
+      },
+      "oneTimeWithdrawDate": "21.06.2025",
+      "oneTimeWithdrawDateIsOver": true,
+      "list": [
+        {
+          "year": "2025",
+          "updateDate": "21.06.2025",
+          "list": [
+            {
+              "title": "דמי ניהול",
+              "subTitle": "ומרגשח סיט סתשם למרקל סאפיאן.",
+              "sum": null
+            },
+            {
+              "title": "הפקדות",
+              "subTitle": "יהול ומעיוט אדיפיסינג סוברט ניסי.",
+              "sum": {
+                "value": 13345,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2024",
+              "subTitle": "מנת למרקל כלרשט מונחף ערששף סילקוף מנכם.",
+              "sum": {
+                "value": 13231,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתחילת שנה",
+              "subTitle": null,
+              "sum": {
+                "value": 15074,
+                "currency": "₪"
+              }
+            }
+          ]
+        },
+        {
+          "year": "2024",
+          "updateDate": "21.06.2025",
+          "list": [
+            {
+              "title": "דמי ניהול",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2024",
+              "subTitle": null,
+              "sum": {
+                "value": 6857,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "הפקדות",
+              "subTitle": null,
+              "sum": {
+                "value": 16471,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתאריך 21.06.2025",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "הפקדות",
+              "subTitle": "הכייר נולום שמחויט בלובק ניצאחו סילקוף אלמנקום.",
+              "sum": null
+            },
+            {
+              "title": "יתרה לתאריך 31.05.2025",
+              "subTitle": "ניצאחו ארווס כלרשט.",
+              "sum": {
+                "value": 13483,
+                "currency": "₪"
+              }
+            }
+          ]
+        },
+        {
+          "year": "2023",
+          "updateDate": "21.06.2025",
+          "list": [
+            {
+              "title": "דמי ניהול",
+              "subTitle": null,
+              "sum": {
+                "value": 210,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "דמי ניהול",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "דמי ניהול",
+              "subTitle": "שהכים גק ליץ לקטוס.",
+              "sum": {
+                "value": 3024,
+                "currency": "₪"
+              }
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "updateDate": "21.06.2025",
+          "list": [
+            {
+              "title": "יתרה לתאריך 31.05.2025",
+              "subTitle": null,
+              "sum": {
+                "value": 226,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "דמי ניהול",
+              "subTitle": "נון סוברט דומור פוסיליס סוליסי אפאח נון.",
+              "sum": null
+            },
+            {
+              "title": "יתרה לתאריך 31.05.2025",
+              "subTitle": null,
+              "sum": {
+                "value": 3355,
+                "currency": "₪"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "deposits": {
+      "dailyDeposits": {
+        "list": []
+      },
+      "yearlyDeposits": {
+        "list": [
+          {
+            "year": "2025",
+            "updateDate": "21.06.2025",
+            "list": []
+          },
+          {
+            "year": "2024",
+            "updateDate": "21.06.2025",
+            "list": []
+          },
+          {
+            "year": "2023",
+            "updateDate": "21.06.2025",
+            "list": []
+          },
+          {
+            "year": "2022",
+            "updateDate": "21.06.2025",
+            "list": []
+          }
+        ]
+      }
+    },
+    "managementFee": {
+      "percentageMngFee": {
+        "updateDate": "21.06.25",
+        "fromDeposit": {
+          "percentageData": {
+            "value": 0,
+            "sign": "%"
+          }
+        },
+        "fromSaving": {
+          "percentageData": {
+            "value": 1.05,
+            "sign": "%"
+          }
+        }
+      },
+      "updatedMngFee": {
+        "updateDate": "21.06.2025",
+        "fromDeposit": {
+          "percentageData": {
+            "value": 0,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "dateFrom": "",
+                "dateTo": ""
+              }
+            ]
+          }
+        },
+        "fromSaving": {
+          "percentageData": {
+            "value": 1.05,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromSaving": {
+                  "value": 1.05,
+                  "sign": "%"
+                },
+                "dateFrom": "",
+                "dateTo": ""
+              }
+            ]
+          }
+        }
+      }
+    },
+    "yearCostPrediction": {
+      "updateDate": "21.06.25",
+      "list": [
+        {
+          "title": "הפניקס גמל לבני 60 ומעלה",
+          "savingFee": null,
+          "depositFee": null,
+          "expenseCommission": {
+            "value": 0.28,
+            "sign": "%"
+          },
+          "expenseNonCommission": {
+            "value": 0.09,
+            "sign": "%"
+          },
+          "yearCostPrediction": null
+        }
+      ]
+    },
+    "investmentRoutesTransferConcentration": {
+      "investmentRoutes": {
+        "updateDate": "21.06.2025",
+        "list": [
+          {
+            "yieldPercentage": {
+              "value": 2.72,
+              "sign": "%"
+            },
+            "investmentRouteTitle": "הפניקס גמל לבני 60 ומעלה",
+            "investmentSum": {
+              "value": 11294.32,
+              "currency": "₪"
+            },
+            "updateDate": "21.06.2025",
+            "tsuotLastUpdateDate": "2025-04-30T21:00:00.000+00:00",
+            "periodicRoute": null,
+            "isExistRoute": true,
+            "investmentPercent": {
+              "value": 100,
+              "sign": "%"
+            },
+            "dailyYieldUpdateDate": "21.06.2025"
+          }
+        ],
+        "transferConcentration": {
+          "list": [],
+          "updatedAt": ""
+        }
+      }
+    },
+    "expectedPayments": {
+      "updateDate": "21.06.2025",
+      "list": [
+        {
+          "title": "סכום למשיכה חד פעמית",
+          "subTitle": "כלרשט מונפרד ליץ גק וחאית סתשם.",
+          "sum": {
+            "value": 10267,
+            "currency": "₪"
+          }
+        },
+        {
+          "title": "סכום למקרה מוות",
+          "subTitle": "ומעיוט קלובר התידם סחטיר לורם קוויס.",
+          "sum": {
+            "value": 8467,
+            "currency": "₪"
+          }
+        }
+      ]
+    },
+    "beneficiaries": {
+      "list": [
+        {
+          "name": "לביא כהן",
+          "date": "21.06.2025"
+        }
+      ],
+      "updatedAt": ""
+    }
+  },
+  "status": 200,
+  "insurance_type": "ExcellenceSavingByNumResponse"
+}

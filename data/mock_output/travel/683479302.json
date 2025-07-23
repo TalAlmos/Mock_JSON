@@ -1,0 +1,78 @@
+{
+  "basicCoverage": {
+    "insuredList": null,
+    "extraData": null,
+    "allInsured": true
+  },
+  "loggage": {
+    "insuredList": null,
+    "extraData": null,
+    "allInsured": true
+  },
+  "searchRescue": {
+    "insuredList": [
+      "אביגיל",
+      "רפאל"
+    ],
+    "extraData": null,
+    "allInsured": true
+  },
+  "corona": {
+    "insuredList": [
+      "אביגיל",
+      "רפאל"
+    ],
+    "extraData": null,
+    "allInsured": true
+  },
+  "extremeSport": {
+    "insuredList": [
+      "אביגיל",
+      "רפאל"
+    ],
+    "extraData": [
+      {
+        "startDate": "01/10/2025",
+        "endDate": "08/10/2025"
+      },
+      {
+        "startDate": "01/10/2025",
+        "endDate": "08/10/2025"
+      }
+    ],
+    "allInsured": true
+  },
+  "mobilePhone": {
+    "insuredList": [
+      "אביגיל"
+    ],
+    "extraData": [
+      {
+        "owner": "אביגיל",
+        "model": "אייפון 15 פרו"
+      }
+    ],
+    "allInsured": false
+  },
+  "laptopOrTablet": {
+    "insuredList": [
+      "רפאל"
+    ],
+    "extraData": [
+      {
+        "owner": "רפאל",
+        "model": "MEC BOOK AIR"
+      }
+    ],
+    "allInsured": false
+  },
+  "cancelOrDelay": {
+    "insuredList": [
+      "אביגיל",
+      "רפאל"
+    ],
+    "extraData": null,
+    "allInsured": true
+  },
+  "insurance_type": "travel"
+}

@@ -1,0 +1,129 @@
+{
+  "vehicleUnitedDetail": {
+    "insuranceDetails": {
+      "updatedAt": "07.03.25",
+      "startDate": "07.03.25",
+      "endDate": "06.03.26",
+      "originalEndDate": "2026-03-06T00:00:00",
+      "originalStartDate": "2025-03-07T00:00:00",
+      "premia": {
+        "value": 3166,
+        "currency": "₪"
+      },
+      "list": [
+        {
+          "requiredRenewal": true,
+          "startDate": "07.03.25",
+          "endDate": "06.03.26",
+          "policySubType": "makif",
+          "premia": {
+            "currency": "₪",
+            "value": 1402
+          },
+          "claimsList": []
+        }
+      ]
+    },
+    "payments": {
+      "payedSum": {
+        "value": 6526,
+        "currency": "₪"
+      },
+      "balanceSum": {
+        "value": 2799,
+        "currency": "₪"
+      },
+      "payedList": {
+        "list": [
+          {
+            "date": "07/03/2025",
+            "method": "ישראכרט 9818",
+            "paymentType": "חיוב",
+            "amount": {
+              "value": 383,
+              "currency": "₪"
+            },
+            "details": [
+              {
+                "paymentNo": null,
+                "date": "07/03/2025",
+                "method": "תשלום בכרטיס אשראי",
+                "totalPayments": "",
+                "policySubType": "hova",
+                "amount": {
+                  "value": 532,
+                  "currency": "₪"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "agentDetails": [
+      {
+        "name": "הפניקס SMART",
+        "address": "הר עצמון 98, האון 94827",
+        "phone": "0715330816"
+      }
+    ],
+    "authorizedDrivers": [
+      {
+        "firstName": "נגה",
+        "lastName": "לוי"
+      },
+      {
+        "firstName": "נינה",
+        "lastName": "סגל"
+      }
+    ],
+    "serviceList": [
+      {
+        "type": "גרירה",
+        "name": "שגריר",
+        "phone": "*8888",
+        "eSite": null
+      },
+      {
+        "type": "שמשות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      },
+      {
+        "type": "פנסים ומראות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      }
+    ],
+    "treatmentSubjects": [],
+    "licenseEndDate": "06.03.26",
+    "youngerDriverAge": "79"
+  },
+  "insuranceType": "קולקטיב - ביטוח בריאות קבוצתי לעובדים בכירים ובני משפחתם בטר\"מ.",
+  "modelType": "ניסאן קשקאי החדשה אסנטה",
+  "licensePlate": "48909382",
+  "isExpired": false,
+  "isActive": true,
+  "list": [
+    {
+      "policyId": "POL-695695",
+      "insuranceType": "ביטוח צד ג' ללא ביטול הש",
+      "policyName": "ביטוח לרכב פרטי",
+      "endDate": "06.03.2026",
+      "startDate": "07.03.2025",
+      "modelType": "ניסאן קשקאי החדשה אסנטה",
+      "licensePlate": "48909382",
+      "classification": "אישי",
+      "carPolicyType": "gimel",
+      "isExpired": true,
+      "isActive": true,
+      "sectorId": "670",
+      "validityTime": "07.03.2025",
+      "isSmart": false,
+      "AgentNumber": 56817
+    }
+  ],
+  "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+}

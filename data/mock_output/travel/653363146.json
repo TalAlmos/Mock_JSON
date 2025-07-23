@@ -1,0 +1,75 @@
+{
+  "basicCoverage": {
+    "insuredList": null,
+    "extraData": null,
+    "allInsured": true
+  },
+  "loggage": {
+    "insuredList": [
+      "תהילה",
+      "עבד"
+    ],
+    "extraData": null,
+    "allInsured": true
+  },
+  "searchRescue": {
+    "insuredList": [
+      "תהילה",
+      "עבד"
+    ],
+    "extraData": null,
+    "allInsured": true
+  },
+  "corona": {
+    "insuredList": null,
+    "extraData": null,
+    "allInsured": true
+  },
+  "extremeSport": {
+    "insuredList": [
+      "תהילה",
+      "עבד"
+    ],
+    "extraData": [
+      {
+        "startDate": "23/10/2025",
+        "endDate": "08/11/2025"
+      },
+      {
+        "startDate": "23/10/2025",
+        "endDate": "08/11/2025"
+      }
+    ],
+    "allInsured": true
+  },
+  "mobilePhone": {
+    "insuredList": [
+      "עבד"
+    ],
+    "extraData": [
+      {
+        "owner": "עבד",
+        "model": "אייפון 15 פרו"
+      }
+    ],
+    "allInsured": false
+  },
+  "laptopOrTablet": {
+    "insuredList": [
+      "עבד"
+    ],
+    "extraData": [
+      {
+        "owner": "עבד",
+        "model": "MEC BOOK AIR"
+      }
+    ],
+    "allInsured": false
+  },
+  "cancelOrDelay": {
+    "insuredList": null,
+    "extraData": null,
+    "allInsured": true
+  },
+  "insurance_type": "travel"
+}

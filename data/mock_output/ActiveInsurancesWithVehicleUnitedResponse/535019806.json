@@ -1,0 +1,134 @@
+{
+  "vehicleUnitedDetail": {
+    "insuranceDetails": {
+      "updatedAt": "15.01.25",
+      "startDate": "15.01.25",
+      "endDate": "14.01.26",
+      "originalEndDate": "2026-01-14T00:00:00",
+      "originalStartDate": "2025-01-15T00:00:00",
+      "premia": {
+        "value": 3005,
+        "currency": "₪"
+      },
+      "list": [
+        {
+          "requiredRenewal": true,
+          "startDate": "15.01.25",
+          "endDate": "14.01.26",
+          "policySubType": "gimel",
+          "premia": {
+            "currency": "₪",
+            "value": 7916
+          },
+          "claimsList": [
+            {
+              "claimNo": "6411395462",
+              "submissionDate": "15.01.25"
+            }
+          ]
+        }
+      ]
+    },
+    "payments": {
+      "payedSum": {
+        "value": 5901,
+        "currency": "₪"
+      },
+      "balanceSum": {
+        "value": 2592,
+        "currency": "₪"
+      },
+      "payedList": {
+        "list": [
+          {
+            "date": "15/01/2025",
+            "method": "אשראי 0363",
+            "paymentType": "חיוב",
+            "amount": {
+              "value": 230,
+              "currency": "₪"
+            },
+            "details": [
+              {
+                "paymentNo": null,
+                "date": "15/01/2025",
+                "method": "אשראי 0363",
+                "totalPayments": "",
+                "policySubType": "makif",
+                "amount": {
+                  "value": 833,
+                  "currency": "₪"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "agentDetails": [
+      {
+        "name": "מגדל ביטוח",
+        "address": "בן ישי 09, עספיא 21464",
+        "phone": "0736267079"
+      }
+    ],
+    "authorizedDrivers": [
+      {
+        "firstName": "הילה",
+        "lastName": "אדרי"
+      },
+      {
+        "firstName": "שירה",
+        "lastName": "נחמני"
+      }
+    ],
+    "serviceList": [
+      {
+        "type": "גרירה",
+        "name": "שגריר",
+        "phone": "*8888",
+        "eSite": null
+      },
+      {
+        "type": "שמשות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      },
+      {
+        "type": "פנסים ומראות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      }
+    ],
+    "treatmentSubjects": [],
+    "licenseEndDate": "14.01.26",
+    "youngerDriverAge": "29"
+  },
+  "insuranceType": "קולקטיב - ביטוח בריאות קבוצתי לבני משפחתם של עובדי טר\"מ",
+  "modelType": "יונדאי 35IXPRIME",
+  "licensePlate": "71613372",
+  "isExpired": false,
+  "isActive": true,
+  "list": [
+    {
+      "policyId": "POL-157113",
+      "insuranceType": "",
+      "policyName": "ביטוח חובה לרכב פרטי",
+      "endDate": "14.01.2026",
+      "startDate": "15.01.2025",
+      "modelType": "יונדאי 35IXPRIME",
+      "licensePlate": "71613372",
+      "classification": "אישי",
+      "carPolicyType": "gimel",
+      "isExpired": false,
+      "isActive": true,
+      "sectorId": "782",
+      "validityTime": "15.01.2025",
+      "isSmart": true,
+      "AgentNumber": 82808
+    }
+  ],
+  "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+}

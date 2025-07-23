@@ -1,0 +1,771 @@
+[
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "21.04.25",
+        "startDate": "21.04.25",
+        "endDate": "20.04.26",
+        "originalEndDate": "2026-04-20T00:00:00",
+        "originalStartDate": "2025-04-21T00:00:00",
+        "premia": {
+          "value": 8923,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "21.04.25",
+            "endDate": "20.04.26",
+            "policySubType": "hova",
+            "premia": {
+              "currency": "₪",
+              "value": 4121
+            },
+            "claimsList": []
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 6077,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 163,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "21/04/2025",
+              "method": "אשראי 0363",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 673,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "21/04/2025",
+                  "method": "תשלום בכרטיס אשראי",
+                  "totalPayments": "",
+                  "policySubType": "makif",
+                  "amount": {
+                    "value": 968,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "הפניקס SMART",
+          "address": "המרגנית 64, שדי תרומות 27984",
+          "phone": "0778470951"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "בת שבע",
+          "lastName": "שלו"
+        },
+        {
+          "firstName": "שמעון",
+          "lastName": "ברכה"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "20.04.26",
+      "youngerDriverAge": "67"
+    },
+    "insuranceType": "קלאסי",
+    "modelType": "טסלהY DWR",
+    "licensePlate": "75900722",
+    "isExpired": false,
+    "isActive": true,
+    "list": [
+      {
+        "policyId": "POL-963642",
+        "insuranceType": "ביטוח מקיף",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "20.04.2026",
+        "startDate": "21.04.2025",
+        "modelType": "טסלהY DWR",
+        "licensePlate": "75900722",
+        "classification": "אישי",
+        "carPolicyType": "gimel",
+        "isExpired": false,
+        "isActive": false,
+        "sectorId": "653",
+        "validityTime": "21.04.2025",
+        "isSmart": false,
+        "AgentNumber": 79553
+      },
+      {
+        "policyId": "POL-154026",
+        "insuranceType": "ביטוח צד ג' ללא ביטול הש",
+        "policyName": "ביטוח חובה לרכב פרטי",
+        "endDate": "20.04.2026",
+        "startDate": "21.04.2025",
+        "modelType": "טסלהY DWR",
+        "licensePlate": "75900722",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": true,
+        "isActive": false,
+        "sectorId": "64",
+        "validityTime": "21.04.2025",
+        "isSmart": false,
+        "AgentNumber": 22775
+      },
+      {
+        "policyId": "POL-756226",
+        "insuranceType": "",
+        "policyName": "ביטוח חובה לרכב פרטי",
+        "endDate": "20.04.2026",
+        "startDate": "21.04.2025",
+        "modelType": "טסלהY DWR",
+        "licensePlate": "75900722",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": false,
+        "isActive": false,
+        "sectorId": "600",
+        "validityTime": "21.04.2025",
+        "isSmart": false,
+        "AgentNumber": 41551
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  },
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "15.02.25",
+        "startDate": "15.02.25",
+        "endDate": "14.02.26",
+        "originalEndDate": "2026-02-14T00:00:00",
+        "originalStartDate": "2025-02-15T00:00:00",
+        "premia": {
+          "value": 2712,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "15.02.25",
+            "endDate": "14.02.26",
+            "policySubType": "hova",
+            "premia": {
+              "currency": "₪",
+              "value": 5034
+            },
+            "claimsList": []
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 1821,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 1178,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "15/02/2025",
+              "method": "אשראי 7724",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 110,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "15/02/2025",
+                  "method": "אשראי 9380",
+                  "totalPayments": "",
+                  "policySubType": "makif",
+                  "amount": {
+                    "value": 480,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "הראל ביטוח",
+          "address": "ירקון 65, חשמונאים 94164",
+          "phone": "0777144361"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "יהונתן",
+          "lastName": "מועלם"
+        },
+        {
+          "firstName": "יונתן",
+          "lastName": "רז"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "14.02.26",
+      "youngerDriverAge": "27"
+    },
+    "insuranceType": "מקיף + חובה",
+    "modelType": "סוזוקי סוויפט",
+    "licensePlate": "23329598",
+    "isExpired": false,
+    "isActive": false,
+    "list": [
+      {
+        "policyId": "POL-321493",
+        "insuranceType": "ביטוח צד ג' ללא ביטול הש",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "14.02.2026",
+        "startDate": "15.02.2025",
+        "modelType": "סוזוקי סוויפט",
+        "licensePlate": "23329598",
+        "classification": "אישי",
+        "carPolicyType": "makif",
+        "isExpired": true,
+        "isActive": false,
+        "sectorId": "810",
+        "validityTime": "15.02.2025",
+        "isSmart": true,
+        "AgentNumber": 50636
+      },
+      {
+        "policyId": "POL-253735",
+        "insuranceType": "רכב שני",
+        "policyName": "ביטוח חובה לרכב פרטי",
+        "endDate": "14.02.2026",
+        "startDate": "15.02.2025",
+        "modelType": "סוזוקי סוויפט",
+        "licensePlate": "23329598",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": true,
+        "isActive": false,
+        "sectorId": "528",
+        "validityTime": "15.02.2025",
+        "isSmart": true,
+        "AgentNumber": 25295
+      },
+      {
+        "policyId": "POL-389822",
+        "insuranceType": "זהיר מכירה דרך אינטרנט",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "14.02.2026",
+        "startDate": "15.02.2025",
+        "modelType": "סוזוקי סוויפט",
+        "licensePlate": "23329598",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": true,
+        "isActive": true,
+        "sectorId": "446",
+        "validityTime": "15.02.2025",
+        "isSmart": false,
+        "AgentNumber": 13772
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  },
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "03.07.25",
+        "startDate": "03.07.25",
+        "endDate": "02.07.26",
+        "originalEndDate": "2026-07-02T00:00:00",
+        "originalStartDate": "2025-07-03T00:00:00",
+        "premia": {
+          "value": 9230,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "03.07.25",
+            "endDate": "02.07.26",
+            "policySubType": "hova",
+            "premia": {
+              "currency": "₪",
+              "value": 2462
+            },
+            "claimsList": [
+              {
+                "claimNo": "9877466761",
+                "submissionDate": "03.07.25"
+              }
+            ]
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 3776,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 86,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "03/07/2025",
+              "method": "אשראי 7659",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 873,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "03/07/2025",
+                  "method": "אשראי 2320",
+                  "totalPayments": "",
+                  "policySubType": "hova",
+                  "amount": {
+                    "value": 696,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "מגדל ביטוח",
+          "address": "ניר עם 44, רמות מנשה 84434",
+          "phone": "0756705284"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "הילה",
+          "lastName": "שיטרית"
+        },
+        {
+          "firstName": "יהודה",
+          "lastName": "משה"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "02.07.26",
+      "youngerDriverAge": "50"
+    },
+    "insuranceType": "ביטוח מקיף",
+    "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+    "licensePlate": "28540704",
+    "isExpired": false,
+    "isActive": true,
+    "list": [
+      {
+        "policyId": "POL-247537",
+        "insuranceType": "רכב שני",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "02.07.2026",
+        "startDate": "03.07.2025",
+        "modelType": "מאזדה 3 אקטיב אוטו' 4 דלתות",
+        "licensePlate": "28540704",
+        "classification": "אישי",
+        "carPolicyType": "gimel",
+        "isExpired": false,
+        "isActive": true,
+        "sectorId": "277",
+        "validityTime": "03.07.2025",
+        "isSmart": true,
+        "AgentNumber": 46490
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  },
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "11.06.25",
+        "startDate": "11.06.25",
+        "endDate": "10.06.26",
+        "originalEndDate": "2026-06-10T00:00:00",
+        "originalStartDate": "2025-06-11T00:00:00",
+        "premia": {
+          "value": 1808,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "11.06.25",
+            "endDate": "10.06.26",
+            "policySubType": "hova",
+            "premia": {
+              "currency": "₪",
+              "value": 2105
+            },
+            "claimsList": []
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 6102,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 568,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "11/06/2025",
+              "method": "ישראכרט 9818",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 799,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "11/06/2025",
+                  "method": "אשראי 9301",
+                  "totalPayments": "",
+                  "policySubType": "gimel",
+                  "amount": {
+                    "value": 291,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "הראל ביטוח",
+          "address": "הרב בידאני עובדיה 60, עצמון שגב 16720",
+          "phone": "0762496631"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "סארה",
+          "lastName": "בכר"
+        },
+        {
+          "firstName": "מלכה",
+          "lastName": "חלבי"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "10.06.26",
+      "youngerDriverAge": "36"
+    },
+    "insuranceType": "מקיף + חובה",
+    "modelType": "BYD ATTO 3 COMFORT",
+    "licensePlate": "68558419",
+    "isExpired": false,
+    "isActive": true,
+    "list": [
+      {
+        "policyId": "POL-733080",
+        "insuranceType": "ביטוח צד ג' ללא ביטול הש",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "10.06.2026",
+        "startDate": "11.06.2025",
+        "modelType": "BYD ATTO 3 COMFORT",
+        "licensePlate": "68558419",
+        "classification": "אישי",
+        "carPolicyType": "makif",
+        "isExpired": false,
+        "isActive": true,
+        "sectorId": "31",
+        "validityTime": "11.06.2025",
+        "isSmart": true,
+        "AgentNumber": 85859
+      },
+      {
+        "policyId": "POL-641031",
+        "insuranceType": "מסלול באחריות",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "10.06.2026",
+        "startDate": "11.06.2025",
+        "modelType": "BYD ATTO 3 COMFORT",
+        "licensePlate": "68558419",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": false,
+        "isActive": true,
+        "sectorId": "348",
+        "validityTime": "11.06.2025",
+        "isSmart": true,
+        "AgentNumber": 27157
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  },
+  {
+    "vehicleUnitedDetail": {
+      "insuranceDetails": {
+        "updatedAt": "25.05.25",
+        "startDate": "25.05.25",
+        "endDate": "24.05.26",
+        "originalEndDate": "2026-05-24T00:00:00",
+        "originalStartDate": "2025-05-25T00:00:00",
+        "premia": {
+          "value": 2183,
+          "currency": "₪"
+        },
+        "list": [
+          {
+            "requiredRenewal": true,
+            "startDate": "25.05.25",
+            "endDate": "24.05.26",
+            "policySubType": "hova",
+            "premia": {
+              "currency": "₪",
+              "value": 2633
+            },
+            "claimsList": []
+          }
+        ]
+      },
+      "payments": {
+        "payedSum": {
+          "value": 3107,
+          "currency": "₪"
+        },
+        "balanceSum": {
+          "value": 2469,
+          "currency": "₪"
+        },
+        "payedList": {
+          "list": [
+            {
+              "date": "25/05/2025",
+              "method": "אשראי 9818",
+              "paymentType": "חיוב",
+              "amount": {
+                "value": 809,
+                "currency": "₪"
+              },
+              "details": [
+                {
+                  "paymentNo": null,
+                  "date": "25/05/2025",
+                  "method": "אשראי 9380",
+                  "totalPayments": "",
+                  "policySubType": "hova",
+                  "amount": {
+                    "value": 725,
+                    "currency": "₪"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "agentDetails": [
+        {
+          "name": "מגדל ביטוח",
+          "address": "רח 7035 28, הסוללים 63647",
+          "phone": "0728921676"
+        }
+      ],
+      "authorizedDrivers": [
+        {
+          "firstName": "ישי",
+          "lastName": "שחר"
+        },
+        {
+          "firstName": "נאי",
+          "lastName": "פרץ"
+        }
+      ],
+      "serviceList": [
+        {
+          "type": "גרירה",
+          "name": "שגריר",
+          "phone": "*8888",
+          "eSite": null
+        },
+        {
+          "type": "שמשות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        },
+        {
+          "type": "פנסים ומראות",
+          "name": "אוטוגלס",
+          "phone": "03-6507777",
+          "eSite": null
+        }
+      ],
+      "treatmentSubjects": [],
+      "licenseEndDate": "24.05.26",
+      "youngerDriverAge": "26"
+    },
+    "insuranceType": "קולקטיב - ביטוח בריאות קבוצתי לבני משפחתם של עובדי טר\"מ",
+    "modelType": "BYD ATTO 3 COMFORT",
+    "licensePlate": "19245508",
+    "isExpired": true,
+    "isActive": false,
+    "list": [
+      {
+        "policyId": "POL-784612",
+        "insuranceType": "זהיר מכירה דרך אינטרנט",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "24.05.2026",
+        "startDate": "25.05.2025",
+        "modelType": "BYD ATTO 3 COMFORT",
+        "licensePlate": "19245508",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": true,
+        "isActive": false,
+        "sectorId": "350",
+        "validityTime": "25.05.2025",
+        "isSmart": false,
+        "AgentNumber": 78606
+      },
+      {
+        "policyId": "POL-187093",
+        "insuranceType": "ביטוח חובה",
+        "policyName": "ביטוח לרכב פרטי",
+        "endDate": "24.05.2026",
+        "startDate": "25.05.2025",
+        "modelType": "BYD ATTO 3 COMFORT",
+        "licensePlate": "19245508",
+        "classification": "אישי",
+        "carPolicyType": "hova",
+        "isExpired": false,
+        "isActive": true,
+        "sectorId": "397",
+        "validityTime": "25.05.2025",
+        "isSmart": false,
+        "AgentNumber": 58446
+      },
+      {
+        "policyId": "POL-315510",
+        "insuranceType": "ביטוח מקיף",
+        "policyName": "ביטוח חובה לרכב פרטי",
+        "endDate": "24.05.2026",
+        "startDate": "25.05.2025",
+        "modelType": "BYD ATTO 3 COMFORT",
+        "licensePlate": "19245508",
+        "classification": "עסקי",
+        "carPolicyType": "makif",
+        "isExpired": false,
+        "isActive": false,
+        "sectorId": "663",
+        "validityTime": "25.05.2025",
+        "isSmart": true,
+        "AgentNumber": 93634
+      }
+    ],
+    "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+  }
+]

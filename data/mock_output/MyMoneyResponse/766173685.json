@@ -1,0 +1,176 @@
+{
+  "status": 200,
+  "message": "OK",
+  "transId": "string",
+  "entity": "MyMoneyResponse",
+  "response": null,
+  "topHeader": {
+    "sumSaving": {
+      "value": 987051,
+      "currency": "₪"
+    },
+    "numSavingChannel": 3,
+    "monthChange": {
+      "value": 0.37,
+      "sign": "%"
+    },
+    "sumMonthChange": {
+      "value": 3678.9,
+      "currency": "₪"
+    },
+    "accumulateChange": {
+      "value": 27886.12,
+      "currency": "₪"
+    }
+  },
+  "mainHeader": {
+    "date": "06.04.2025",
+    "totalSaving": {
+      "value": 1752047,
+      "currency": "₪"
+    },
+    "fluentWithdraw": {
+      "value": 858891,
+      "currency": "₪"
+    },
+    "expectedForRetirement": {
+      "value": 29045,
+      "currency": "₪"
+    },
+    "savingExpectedForRetirement": null
+  },
+  "accumulationByProduct": {
+    "list": [
+      {
+        "policyType": "gemelInvestment",
+        "savingSum": {
+          "value": 365518,
+          "currency": "₪"
+        },
+        "fluentSum": {
+          "value": 102628,
+          "currency": "₪"
+        },
+        "eligibilityDate": "",
+        "expectedForRetirement": null,
+        "notUsedForRetirement": true,
+        "policyIds": [
+          "570-395-969342 (7965253)"
+        ],
+        "updateDate": "18.01.25"
+      }
+    ]
+  },
+  "productList": {
+    "list": [
+      {
+        "policyType": "gemelInvestment",
+        "policyList": [
+          {
+            "policyId": "001-447-408174 (2326925)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": null,
+            "status": {
+              "status": 2,
+              "statusDesc": "פעילה"
+            },
+            "updateTo": "06.04.2025",
+            "dailyUpdateTo": "06.04.2025",
+            "yieldUpdateDate": "06.04.25",
+            "dailyYieldUpdateDate": "",
+            "hasProfitsShare": false,
+            "productData": {
+              "savingSum": {
+                "value": 150796,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": null,
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 15185,
+                "currency": "₪"
+              },
+              "withdrawDate": "26.05.2025",
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0.35978090346549796,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.3606322100065227,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [],
+            "tsuotPopup": null,
+            "isNew": false,
+            "isIndependent": null
+          }
+        ]
+      },
+      {
+        "policyType": "hishtalmut",
+        "policyList": [
+          {
+            "policyId": "007-650-976157 (2786327)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": null,
+            "status": {
+              "status": 1,
+              "statusDesc": "לא פעילה"
+            },
+            "updateTo": "14.04.2025",
+            "dailyUpdateTo": "14.04.2025",
+            "yieldUpdateDate": null,
+            "dailyYieldUpdateDate": "14.04.2025",
+            "hasProfitsShare": false,
+            "productData": {
+              "savingSum": {
+                "value": 251037,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": {
+                "lastDepositsSum": {
+                  "value": 3941,
+                  "currency": "₪"
+                },
+                "lastDepositsDate": "02.07.2025"
+              },
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 88750,
+                "currency": "₪"
+              },
+              "withdrawDate": "02.07.2025",
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.6265715106861505,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [],
+            "tsuotPopup": null,
+            "isNew": false,
+            "isIndependent": null
+          }
+        ]
+      }
+    ]
+  },
+  "lastActions": {
+    "list": []
+  },
+  "insurance_type": "MyMoneyResponse"
+}

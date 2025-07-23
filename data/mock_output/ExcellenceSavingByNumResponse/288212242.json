@@ -1,0 +1,400 @@
+{
+  "message": "",
+  "response": {
+    "general": {
+      "policyName": "קופת גמל",
+      "policyNickname": null,
+      "policyNumber": "001-001-301251 (5436218)",
+      "updatedAt": "04.05.2025",
+      "startDate": null,
+      "kiumRechivSachir": true,
+      "name": "איילה מנצור-סולומון",
+      "isNew": true,
+      "isSeif14": false,
+      "dataSource": null
+    },
+    "noticeUpdate": {
+      "generalDetails": {
+        "startDate": "04.05.2025",
+        "oldAccountNumber": "446-00000000",
+        "employerName": "מועצה אזורית גוש עציון",
+        "withdrawDate": null,
+        "establishmentDate": null
+      },
+      "treatmentSubjects": []
+    },
+    "accountTransactions": {
+      "updateDate": "04.05.2025",
+      "totalSum": {
+        "value": 16549,
+        "currency": "₪"
+      },
+      "dailySum": {
+        "value": 18566,
+        "currency": "₪"
+      },
+      "oneTimeWithdrawDate": "04.05.2025",
+      "oneTimeWithdrawDateIsOver": true,
+      "list": [
+        {
+          "year": "2025",
+          "updateDate": "04.05.2025",
+          "list": [
+            {
+              "title": "יתרה לתחילת שנה",
+              "sum": null,
+              "subTitle": "יתרת כספים בקופה בתחילת השנה"
+            },
+            {
+              "title": "הפקדות",
+              "sum": null,
+              "subTitle": "כספים שהופקדו לקופה"
+            },
+            {
+              "title": "רווחים",
+              "sum": {
+                "value": 4411,
+                "currency": "₪"
+              },
+              "subTitle": "בניכוי הוצאות לניהול השקעות"
+            },
+            {
+              "title": "דמי ניהול",
+              "sum": {
+                "value": 10873,
+                "currency": "₪"
+              },
+              "subTitle": "שנגבו בשנה זאת"
+            },
+            {
+              "title": "יתרה לתאריך 04.05.2025",
+              "sum": null
+            },
+            {
+              "title": "הפסדים",
+              "sum": {
+                "value": 13386,
+                "currency": "₪"
+              },
+              "subTitle": "בניכוי הוצאות לניהול השקעות"
+            }
+          ]
+        },
+        {
+          "year": "2024",
+          "updateDate": "04.05.2025",
+          "list": [
+            {
+              "title": "יתרה לתחילת שנה",
+              "sum": null,
+              "subTitle": "יתרת כספים בקופה בתחילת השנה"
+            },
+            {
+              "title": "הפקדות",
+              "sum": {
+                "value": 16594,
+                "currency": "₪"
+              },
+              "subTitle": "כספים שהופקדו לקופה"
+            },
+            {
+              "title": "רווחים",
+              "sum": {
+                "value": 12982,
+                "currency": "₪"
+              },
+              "subTitle": "בניכוי הוצאות לניהול השקעות"
+            },
+            {
+              "title": "דמי ניהול",
+              "sum": {
+                "value": 11125,
+                "currency": "₪"
+              },
+              "subTitle": "שנגבו בשנה זאת"
+            },
+            {
+              "title": "יתרה לתאריך 04.05.2025",
+              "sum": null
+            },
+            {
+              "title": "הפסדים",
+              "sum": {
+                "value": 14306,
+                "currency": "₪"
+              },
+              "subTitle": "בניכוי הוצאות לניהול השקעות"
+            }
+          ]
+        },
+        {
+          "year": "2023",
+          "updateDate": "04.05.2025",
+          "list": [
+            {
+              "title": "יתרה לתחילת שנה",
+              "sum": null,
+              "subTitle": "יתרת כספים בקופה בתחילת השנה"
+            },
+            {
+              "title": "הפקדות",
+              "sum": null,
+              "subTitle": "כספים שהופקדו לקופה"
+            },
+            {
+              "title": "רווחים",
+              "sum": {
+                "value": 16539,
+                "currency": "₪"
+              },
+              "subTitle": "בניכוי הוצאות לניהול השקעות"
+            },
+            {
+              "title": "דמי ניהול",
+              "sum": {
+                "value": 5872,
+                "currency": "₪"
+              },
+              "subTitle": "שנגבו בשנה זאת"
+            },
+            {
+              "title": "יתרה לתאריך 04.05.2025",
+              "sum": {
+                "value": 18776,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "הפסדים",
+              "sum": {
+                "value": 2169,
+                "currency": "₪"
+              },
+              "subTitle": "בניכוי הוצאות לניהול השקעות"
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "updateDate": "04.05.2025",
+          "list": [
+            {
+              "title": "יתרה לתחילת שנה",
+              "sum": {
+                "value": 15064,
+                "currency": "₪"
+              },
+              "subTitle": "יתרת כספים בקופה בתחילת השנה"
+            },
+            {
+              "title": "הפקדות",
+              "sum": null,
+              "subTitle": "כספים שהופקדו לקופה"
+            },
+            {
+              "title": "רווחים",
+              "sum": {
+                "value": 3919,
+                "currency": "₪"
+              },
+              "subTitle": "בניכוי הוצאות לניהול השקעות"
+            },
+            {
+              "title": "דמי ניהול",
+              "sum": {
+                "value": 5735,
+                "currency": "₪"
+              },
+              "subTitle": "שנגבו בשנה זאת"
+            },
+            {
+              "title": "יתרה לתאריך 04.05.2025",
+              "sum": {
+                "value": 8623,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "הפסדים",
+              "sum": {
+                "value": 9382,
+                "currency": "₪"
+              },
+              "subTitle": "בניכוי הוצאות לניהול השקעות"
+            }
+          ]
+        }
+      ]
+    },
+    "deposits": {
+      "dailyDeposits": {
+        "list": []
+      },
+      "yearlyDeposits": {
+        "list": [
+          {
+            "year": "2025",
+            "updateDate": "04.05.2025",
+            "list": []
+          },
+          {
+            "year": "2024",
+            "updateDate": "04.05.2025",
+            "list": []
+          },
+          {
+            "year": "2023",
+            "updateDate": "04.05.2025",
+            "list": []
+          },
+          {
+            "year": "2022",
+            "updateDate": "04.05.2025",
+            "list": []
+          }
+        ]
+      }
+    },
+    "managementFee": {
+      "percentageMngFee": {
+        "updateDate": "04.05.25",
+        "fromDeposit": {
+          "percentageData": {
+            "value": 0,
+            "sign": "%"
+          }
+        },
+        "fromSaving": {
+          "percentageData": {
+            "value": 1.05,
+            "sign": "%"
+          }
+        }
+      },
+      "updatedMngFee": {
+        "updateDate": "04.05.2025",
+        "fromDeposit": {
+          "percentageData": {
+            "value": 0,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "dateFrom": "",
+                "dateTo": ""
+              }
+            ]
+          }
+        },
+        "fromSaving": {
+          "percentageData": {
+            "value": 1.05,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromSaving": {
+                  "value": 1.05,
+                  "sign": "%"
+                },
+                "dateFrom": "",
+                "dateTo": ""
+              }
+            ]
+          }
+        }
+      }
+    },
+    "yearCostPrediction": {
+      "updateDate": "04.05.25",
+      "list": [
+        {
+          "title": "הפניקס גמל לבני 50 ומטה",
+          "savingFee": null,
+          "depositFee": null,
+          "expenseCommission": {
+            "value": 0.28,
+            "sign": "%"
+          },
+          "expenseNonCommission": {
+            "value": 0.09,
+            "sign": "%"
+          },
+          "yearCostPrediction": {
+            "value": 1.42,
+            "sign": "%"
+          }
+        }
+      ]
+    },
+    "investmentRoutesTransferConcentration": {
+      "investmentRoutes": {
+        "updateDate": "04.05.2025",
+        "list": [
+          {
+            "yieldPercentage": {
+              "value": 2.72,
+              "sign": "%"
+            },
+            "investmentRouteTitle": "הפניקס גמל לבני 60 ומעלה",
+            "investmentSum": {
+              "value": 11294.32,
+              "currency": "₪"
+            },
+            "updateDate": "04.05.2025",
+            "tsuotLastUpdateDate": "2025-04-30T21:00:00.000+00:00",
+            "periodicRoute": null,
+            "isExistRoute": true,
+            "investmentPercent": {
+              "value": 100,
+              "sign": "%"
+            },
+            "dailyYieldUpdateDate": "04.05.2025"
+          }
+        ],
+        "transferConcentration": {
+          "list": [],
+          "updatedAt": ""
+        }
+      }
+    },
+    "expectedPayments": {
+      "updateDate": "04.05.2025",
+      "list": [
+        {
+          "title": "סכום למקרה מוות",
+          "subTitle": "בריקנה סטום מנכם וסתעד.",
+          "sum": {
+            "value": 6215,
+            "currency": "₪"
+          }
+        },
+        {
+          "title": "סכום למקרה מוות",
+          "subTitle": "השמה אדנדום סולגק קרהשק וולופטה ליאמום יהול ארווס.",
+          "sum": {
+            "value": 5594,
+            "currency": "₪"
+          }
+        }
+      ]
+    },
+    "beneficiaries": {
+      "list": [
+        {
+          "name": "אביב אופיר קאסם",
+          "date": "04.05.2025"
+        }
+      ],
+      "updatedAt": ""
+    }
+  },
+  "status": 200,
+  "insurance_type": "ExcellenceSavingByNumResponse"
+}

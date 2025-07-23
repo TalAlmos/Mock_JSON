@@ -1,0 +1,146 @@
+{
+  "vehicleUnitedDetail": {
+    "insuranceDetails": {
+      "updatedAt": "20.04.25",
+      "startDate": "20.04.25",
+      "endDate": "19.04.26",
+      "originalEndDate": "2026-04-19T00:00:00",
+      "originalStartDate": "2025-04-20T00:00:00",
+      "premia": {
+        "value": 6423,
+        "currency": "₪"
+      },
+      "list": [
+        {
+          "requiredRenewal": true,
+          "startDate": "20.04.25",
+          "endDate": "19.04.26",
+          "policySubType": "gimel",
+          "premia": {
+            "currency": "₪",
+            "value": 1689
+          },
+          "claimsList": []
+        }
+      ]
+    },
+    "payments": {
+      "payedSum": {
+        "value": 3707,
+        "currency": "₪"
+      },
+      "balanceSum": {
+        "value": 2217,
+        "currency": "₪"
+      },
+      "payedList": {
+        "list": [
+          {
+            "date": "20/04/2025",
+            "method": "אשראי 9818",
+            "paymentType": "חיוב",
+            "amount": {
+              "value": 906,
+              "currency": "₪"
+            },
+            "details": [
+              {
+                "paymentNo": null,
+                "date": "20/04/2025",
+                "method": "אשראי 1380",
+                "totalPayments": "",
+                "policySubType": "makif",
+                "amount": {
+                  "value": 312,
+                  "currency": "₪"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "agentDetails": [
+      {
+        "name": "מגדל ביטוח",
+        "address": "דימיטר פשב 65, גרופית 20597",
+        "phone": "0731656034"
+      }
+    ],
+    "authorizedDrivers": [
+      {
+        "firstName": "לייה",
+        "lastName": "עומר"
+      },
+      {
+        "firstName": "לין",
+        "lastName": "פישמן"
+      }
+    ],
+    "serviceList": [
+      {
+        "type": "גרירה",
+        "name": "שגריר",
+        "phone": "*8888",
+        "eSite": null
+      },
+      {
+        "type": "שמשות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      },
+      {
+        "type": "פנסים ומראות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      }
+    ],
+    "treatmentSubjects": [],
+    "licenseEndDate": "19.04.26",
+    "youngerDriverAge": "75"
+  },
+  "insuranceType": "מקיף + חובה",
+  "modelType": "יונדאי I01 החדשה",
+  "licensePlate": "4275141",
+  "isExpired": false,
+  "isActive": true,
+  "list": [
+    {
+      "policyId": "POL-139803",
+      "insuranceType": "ביטוח מקיף",
+      "policyName": "ביטוח לרכב פרטי",
+      "endDate": "19.04.2026",
+      "startDate": "20.04.2025",
+      "modelType": "יונדאי I01 החדשה",
+      "licensePlate": "4275141",
+      "classification": "אישי",
+      "carPolicyType": "makif",
+      "isExpired": false,
+      "isActive": true,
+      "sectorId": "538",
+      "validityTime": "20.04.2025",
+      "isSmart": true,
+      "AgentNumber": 67266
+    },
+    {
+      "policyId": "POL-470836",
+      "insuranceType": "ביטוח מקיף",
+      "policyName": "ביטוח לרכב פרטי",
+      "endDate": "19.04.2026",
+      "startDate": "20.04.2025",
+      "modelType": "יונדאי I01 החדשה",
+      "licensePlate": "4275141",
+      "classification": "אישי",
+      "carPolicyType": "hova",
+      "isExpired": true,
+      "isActive": false,
+      "sectorId": "809",
+      "validityTime": "20.04.2025",
+      "isSmart": false,
+      "AgentNumber": 65897
+    }
+  ],
+  "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+}

@@ -1,0 +1,353 @@
+{
+  "message": "",
+  "response": {
+    "general": {
+      "policyName": "קופת גמל",
+      "policyNickname": null,
+      "policyNumber": "001-001-210032 (2889839)",
+      "updatedAt": "18.02.2025",
+      "startDate": null,
+      "kiumRechivSachir": false,
+      "name": "אביעד אלמלח",
+      "isNew": false,
+      "isSeif14": true,
+      "dataSource": null
+    },
+    "noticeUpdate": {
+      "generalDetails": {
+        "startDate": "18.02.2025",
+        "oldAccountNumber": "642-00000000",
+        "employerName": "עיריית ראשון לציון",
+        "withdrawDate": null,
+        "establishmentDate": null
+      },
+      "treatmentSubjects": []
+    },
+    "accountTransactions": {
+      "updateDate": "18.02.2025",
+      "totalSum": {
+        "value": 17811,
+        "currency": "₪"
+      },
+      "dailySum": {
+        "value": 14818,
+        "currency": "₪"
+      },
+      "oneTimeWithdrawDate": "18.02.2025",
+      "oneTimeWithdrawDateIsOver": false,
+      "list": [
+        {
+          "year": "2025",
+          "updateDate": "18.02.2025",
+          "list": [
+            {
+              "title": "רווחים",
+              "subTitle": null,
+              "sum": {
+                "value": 19556,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתחילת שנה",
+              "subTitle": null,
+              "sum": {
+                "value": 5612,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2024",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2022",
+              "subTitle": null,
+              "sum": {
+                "value": 9533,
+                "currency": "₪"
+              }
+            }
+          ]
+        },
+        {
+          "year": "2024",
+          "updateDate": "18.02.2025",
+          "list": [
+            {
+              "title": "הפקדות",
+              "subTitle": "פוסיליס סילקוף קראס לפריקך לורם מיחוצים מנורך.",
+              "sum": null
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2023",
+              "subTitle": null,
+              "sum": {
+                "value": 19021,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2022",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "יתרה לתחילת שנה",
+              "subTitle": null,
+              "sum": {
+                "value": 10315,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "הפסדים",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "דמי ניהול",
+              "subTitle": null,
+              "sum": null
+            }
+          ]
+        },
+        {
+          "year": "2023",
+          "updateDate": "18.02.2025",
+          "list": [
+            {
+              "title": "דמי ניהול",
+              "subTitle": null,
+              "sum": {
+                "value": 2098,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2023",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "הפקדות",
+              "subTitle": "מרגשי תרבנך חשלו לתכי מנכם.",
+              "sum": {
+                "value": 2669,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "הפסדים",
+              "subTitle": "איאקוליס נונסטי לורם היושבב.",
+              "sum": null
+            },
+            {
+              "title": "רווחים",
+              "subTitle": null,
+              "sum": null
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "updateDate": "18.02.2025",
+          "list": [
+            {
+              "title": "יתרה לתאריך 31.05.2025",
+              "subTitle": "ניבאה דיאם קונסקטורר אמט השמה מרגשי למרקל.",
+              "sum": {
+                "value": 2807,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2024",
+              "subTitle": "בעריר קוויס בורק? ישבעס גק.",
+              "sum": null
+            },
+            {
+              "title": "יתרה לתחילת שנה",
+              "subTitle": "שבצק ותלברו לפריקך אלית כלרשט קלובר מא.",
+              "sum": {
+                "value": 17937,
+                "currency": "₪"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "deposits": {
+      "dailyDeposits": {
+        "list": []
+      },
+      "yearlyDeposits": {
+        "list": [
+          {
+            "year": "2025",
+            "updateDate": "18.02.2025",
+            "list": []
+          },
+          {
+            "year": "2024",
+            "updateDate": "18.02.2025",
+            "list": []
+          },
+          {
+            "year": "2023",
+            "updateDate": "18.02.2025",
+            "list": []
+          },
+          {
+            "year": "2022",
+            "updateDate": "18.02.2025",
+            "list": []
+          }
+        ]
+      }
+    },
+    "managementFee": {
+      "percentageMngFee": {
+        "updateDate": "18.02.25",
+        "fromDeposit": {
+          "percentageData": {
+            "value": 0,
+            "sign": "%"
+          }
+        },
+        "fromSaving": {
+          "percentageData": {
+            "value": 1.05,
+            "sign": "%"
+          }
+        }
+      },
+      "updatedMngFee": {
+        "updateDate": "18.02.2025",
+        "fromDeposit": {
+          "percentageData": {
+            "value": 0,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "dateFrom": "",
+                "dateTo": ""
+              }
+            ]
+          }
+        },
+        "fromSaving": {
+          "percentageData": {
+            "value": 1.05,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromSaving": {
+                  "value": 1.05,
+                  "sign": "%"
+                },
+                "dateFrom": "",
+                "dateTo": ""
+              }
+            ]
+          }
+        }
+      }
+    },
+    "yearCostPrediction": {
+      "updateDate": "18.02.25",
+      "list": [
+        {
+          "title": "הפניקס גמל לבני 50 ומטה",
+          "savingFee": {
+            "value": 1.05,
+            "sign": "%"
+          },
+          "depositFee": null,
+          "expenseCommission": {
+            "value": 0.28,
+            "sign": "%"
+          },
+          "expenseNonCommission": {
+            "value": 0.09,
+            "sign": "%"
+          },
+          "yearCostPrediction": null
+        }
+      ]
+    },
+    "investmentRoutesTransferConcentration": {
+      "investmentRoutes": {
+        "updateDate": "18.02.2025",
+        "list": [
+          {
+            "yieldPercentage": {
+              "value": 2.72,
+              "sign": "%"
+            },
+            "investmentRouteTitle": "הפניקס גמל לבני 60 ומעלה",
+            "investmentSum": {
+              "value": 11294.32,
+              "currency": "₪"
+            },
+            "updateDate": "18.02.2025",
+            "tsuotLastUpdateDate": "2025-04-30T21:00:00.000+00:00",
+            "periodicRoute": null,
+            "isExistRoute": true,
+            "investmentPercent": {
+              "value": 100,
+              "sign": "%"
+            },
+            "dailyYieldUpdateDate": "18.02.2025"
+          }
+        ],
+        "transferConcentration": {
+          "list": [],
+          "updatedAt": ""
+        }
+      }
+    },
+    "expectedPayments": {
+      "updateDate": "18.02.2025",
+      "list": [
+        {
+          "title": "סכום למקרה מוות",
+          "subTitle": "כאנה קלובר ולחת קונדימנטום קונסקטורר איפסום וק.",
+          "sum": {
+            "value": 7354,
+            "currency": "₪"
+          }
+        },
+        {
+          "title": "סכום למשיכה חד פעמית",
+          "subTitle": "קלובר תצטריק קרהשק.",
+          "sum": {
+            "value": 17078,
+            "currency": "₪"
+          }
+        }
+      ]
+    },
+    "beneficiaries": {
+      "list": [
+        {
+          "name": "מישל אברהמי",
+          "date": "18.02.2025"
+        }
+      ],
+      "updatedAt": ""
+    }
+  },
+  "status": 200,
+  "insurance_type": "ExcellenceSavingByNumResponse"
+}

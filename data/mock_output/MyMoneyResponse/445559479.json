@@ -1,0 +1,286 @@
+{
+  "status": "OK",
+  "message": "OK",
+  "transId": "string",
+  "entity": "MyMoneyResponse",
+  "response": null,
+  "topHeader": {
+    "sumSaving": {
+      "value": 647987,
+      "currency": "₪"
+    },
+    "numSavingChannel": 1,
+    "monthChange": {
+      "value": 0.66,
+      "sign": "%"
+    },
+    "sumMonthChange": {
+      "value": 4285.74,
+      "currency": "₪"
+    },
+    "accumulateChange": {
+      "value": -48929.46,
+      "currency": "₪"
+    }
+  },
+  "mainHeader": {
+    "date": "23.03.2025",
+    "totalSaving": {
+      "value": 1128135,
+      "currency": "₪"
+    },
+    "fluentWithdraw": null,
+    "expectedForRetirement": null,
+    "savingExpectedForRetirement": null
+  },
+  "accumulationByProduct": {
+    "list": [
+      {
+        "policyType": "klasi",
+        "savingSum": {
+          "value": 451570,
+          "currency": "₪"
+        },
+        "fluentSum": null,
+        "eligibilityDate": "",
+        "expectedForRetirement": {
+          "value": 24812,
+          "currency": "₪"
+        },
+        "notUsedForRetirement": false,
+        "policyIds": [
+          "001-945-197052 (3558613)"
+        ],
+        "updateDate": "05.05.25"
+      },
+      {
+        "policyType": "klasi",
+        "savingSum": {
+          "value": 103359,
+          "currency": "₪"
+        },
+        "fluentSum": {
+          "value": 68020,
+          "currency": "₪"
+        },
+        "eligibilityDate": "",
+        "expectedForRetirement": null,
+        "notUsedForRetirement": true,
+        "policyIds": [
+          "007-492-936450 (3827201)"
+        ],
+        "updateDate": "27.01.25"
+      }
+    ]
+  },
+  "productList": {
+    "list": [
+      {
+        "policyType": "gemel",
+        "policyList": [
+          {
+            "policyId": "001-939-893094 (9481379)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": "MAKIFA",
+            "status": {
+              "status": 2,
+              "statusDesc": "לא פעילה"
+            },
+            "updateTo": "20.02.2025",
+            "dailyUpdateTo": null,
+            "yieldUpdateDate": "20.02.25",
+            "dailyYieldUpdateDate": "20.02.2025",
+            "hasProfitsShare": false,
+            "productData": {
+              "savingSum": {
+                "value": 166479,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": null,
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 51978,
+                "currency": "₪"
+              },
+              "withdrawDate": null,
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0.8748908046724524,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.5016841069453094,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [],
+            "tsuotPopup": null,
+            "isNew": true,
+            "isIndependent": false
+          }
+        ]
+      },
+      {
+        "policyType": "hishtalmut",
+        "policyList": [
+          {
+            "policyId": "007-113-935349 (7942238)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": null,
+            "status": {
+              "status": 2,
+              "statusDesc": "פעילה"
+            },
+            "updateTo": "04.04.2025",
+            "dailyUpdateTo": "04.04.2025",
+            "yieldUpdateDate": "04.04.25",
+            "dailyYieldUpdateDate": "04.04.2025",
+            "hasProfitsShare": false,
+            "productData": {
+              "savingSum": {
+                "value": 383757,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": null,
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 192337,
+                "currency": "₪"
+              },
+              "withdrawDate": null,
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.6296265258981609,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [
+              {
+                "name": "הפניקס השתלמות אשראי ואג\"ח",
+                "joinDate": null,
+                "percent": {
+                  "value": 100,
+                  "sign": "%"
+                },
+                "yieldBeginningYear": {
+                  "value": 2.59,
+                  "sign": "%"
+                },
+                "yieldBeginningPolicy": null,
+                "managementFeeFromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "managementFeeFromSaving": {
+                  "value": 0.6507483950618642,
+                  "sign": "%"
+                },
+                "accumulation": {
+                  "value": 383757,
+                  "currency": "₪"
+                },
+                "basketCode": "7469",
+                "isYieldHidden": false,
+                "dailyUpdateDate": null
+              }
+            ],
+            "tsuotPopup": null,
+            "isNew": false,
+            "isIndependent": false
+          }
+        ]
+      },
+      {
+        "policyType": "gemelInvestment",
+        "policyList": [
+          {
+            "policyId": "570-683-366515 (5748171)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": null,
+            "status": {
+              "status": 2,
+              "statusDesc": "לא פעילה"
+            },
+            "updateTo": "26.06.2025",
+            "dailyUpdateTo": null,
+            "yieldUpdateDate": "26.06.25",
+            "dailyYieldUpdateDate": "26.06.2025",
+            "hasProfitsShare": true,
+            "productData": {
+              "savingSum": {
+                "value": 405976,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": null,
+              "depositedThisYear": null,
+              "availableWithdraw": null,
+              "withdrawDate": "15.01.2025",
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.6884480142267528,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [
+              {
+                "name": "הפניקס גמל להשקעה עוקב מדד S&P500",
+                "joinDate": null,
+                "percent": {
+                  "value": 100,
+                  "sign": "%"
+                },
+                "yieldBeginningYear": {
+                  "value": 2.26,
+                  "sign": "%"
+                },
+                "yieldBeginningPolicy": null,
+                "managementFeeFromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "managementFeeFromSaving": {
+                  "value": 0.5960645954950705,
+                  "sign": "%"
+                },
+                "accumulation": {
+                  "value": 405976,
+                  "currency": "₪"
+                },
+                "basketCode": "9053",
+                "isYieldHidden": false,
+                "dailyUpdateDate": "22.06.2025"
+              }
+            ],
+            "tsuotPopup": null,
+            "isNew": true,
+            "isIndependent": false
+          }
+        ]
+      }
+    ]
+  },
+  "lastActions": {
+    "list": []
+  },
+  "insurance_type": "MyMoneyResponse"
+}

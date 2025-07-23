@@ -1,0 +1,151 @@
+{
+  "status": 200,
+  "message": "OK",
+  "transId": "string",
+  "entity": "MyMoneyResponse",
+  "response": null,
+  "topHeader": {
+    "sumSaving": {
+      "value": 1255258,
+      "currency": "₪"
+    },
+    "numSavingChannel": 2,
+    "monthChange": {
+      "value": -2.44,
+      "sign": "%"
+    },
+    "sumMonthChange": {
+      "value": -30670.16,
+      "currency": "₪"
+    },
+    "accumulateChange": {
+      "value": -1446.55,
+      "currency": "₪"
+    }
+  },
+  "mainHeader": {
+    "date": "21.01.2025",
+    "totalSaving": {
+      "value": 1114976,
+      "currency": "₪"
+    },
+    "fluentWithdraw": null,
+    "expectedForRetirement": null,
+    "savingExpectedForRetirement": null
+  },
+  "accumulationByProduct": {
+    "list": []
+  },
+  "productList": {
+    "list": [
+      {
+        "policyType": "klasi",
+        "policyList": [
+          {
+            "policyId": "007-170-309857 (9971730)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": null,
+            "status": {
+              "status": 1,
+              "statusDesc": "לא פעילה"
+            },
+            "updateTo": "16.06.2025",
+            "dailyUpdateTo": null,
+            "yieldUpdateDate": "16.06.25",
+            "dailyYieldUpdateDate": "",
+            "hasProfitsShare": false,
+            "productData": {
+              "savingSum": {
+                "value": 180861,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": {
+                "lastDepositsSum": {
+                  "value": 3604,
+                  "currency": "₪"
+                },
+                "lastDepositsDate": "18.04.2025"
+              },
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 162823,
+                "currency": "₪"
+              },
+              "withdrawDate": null,
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.6959735365548876,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [],
+            "tsuotPopup": null,
+            "isNew": false,
+            "isIndependent": null
+          }
+        ]
+      },
+      {
+        "policyType": "pension",
+        "policyList": [
+          {
+            "policyId": "570-904-680691 (8941726)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": null,
+            "status": {
+              "status": 1,
+              "statusDesc": "פעילה"
+            },
+            "updateTo": "15.06.2025",
+            "dailyUpdateTo": null,
+            "yieldUpdateDate": "15.06.25",
+            "dailyYieldUpdateDate": "",
+            "hasProfitsShare": null,
+            "productData": {
+              "savingSum": {
+                "value": 443012,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": null,
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 271563,
+                "currency": "₪"
+              },
+              "withdrawDate": null,
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.5332337559436453,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [],
+            "tsuotPopup": null,
+            "isNew": true,
+            "isIndependent": false
+          }
+        ]
+      }
+    ]
+  },
+  "lastActions": {
+    "list": []
+  },
+  "insurance_type": "MyMoneyResponse"
+}

@@ -1,0 +1,361 @@
+{
+  "message": "",
+  "response": {
+    "general": {
+      "policyName": "קופת גמל",
+      "policyNickname": null,
+      "policyNumber": "001-001-624323 (8281644)",
+      "updatedAt": "27.01.2025",
+      "startDate": null,
+      "kiumRechivSachir": false,
+      "name": "נדב תורגמן",
+      "isNew": false,
+      "isSeif14": true,
+      "dataSource": null
+    },
+    "noticeUpdate": {
+      "generalDetails": {
+        "startDate": "27.01.2025",
+        "oldAccountNumber": "779-00000000",
+        "employerName": "כהן LLC",
+        "withdrawDate": null,
+        "establishmentDate": null
+      },
+      "treatmentSubjects": []
+    },
+    "accountTransactions": {
+      "updateDate": "27.01.2025",
+      "totalSum": {
+        "value": 2100,
+        "currency": "₪"
+      },
+      "dailySum": {
+        "value": 11913,
+        "currency": "₪"
+      },
+      "oneTimeWithdrawDate": "27.01.2025",
+      "oneTimeWithdrawDateIsOver": true,
+      "list": [
+        {
+          "year": "2025",
+          "updateDate": "27.01.2025",
+          "list": [
+            {
+              "title": "יתרה לתאריך 31.12.2023",
+              "subTitle": "וסטיבולום בלינך אדנדום מונפרד.",
+              "sum": {
+                "value": 4967,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתאריך 27.01.2025",
+              "subTitle": null,
+              "sum": {
+                "value": 19494,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתחילת שנה",
+              "subTitle": null,
+              "sum": {
+                "value": 17209,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "דמי ניהול",
+              "subTitle": "שנרא ניבאה תצטריק התידם.",
+              "sum": {
+                "value": 7783,
+                "currency": "₪"
+              }
+            }
+          ]
+        },
+        {
+          "year": "2024",
+          "updateDate": "27.01.2025",
+          "list": [
+            {
+              "title": "יתרה לתאריך 31.12.2023",
+              "subTitle": "בלינך ומעיוט להאמית דול מונפרר תוק להאמית.",
+              "sum": null
+            },
+            {
+              "title": "יתרה לתחילת שנה",
+              "subTitle": "לכנו דומור תצטריק סכעיט.",
+              "sum": {
+                "value": 2267,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתאריך 27.01.2025",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "יתרה לתאריך 27.01.2025",
+              "subTitle": "הדש ומעיוט דלאמת שלושע קולורס למרקל.",
+              "sum": null
+            },
+            {
+              "title": "הפקדות",
+              "subTitle": null,
+              "sum": null
+            }
+          ]
+        },
+        {
+          "year": "2023",
+          "updateDate": "27.01.2025",
+          "list": [
+            {
+              "title": "יתרה לתאריך 31.12.2022",
+              "subTitle": "שבצק נמרגי סוברט דולור סתשם.",
+              "sum": {
+                "value": 1838,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2024",
+              "subTitle": null,
+              "sum": {
+                "value": 4255,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "הפקדות",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "יתרה לתאריך 31.12.2023",
+              "subTitle": "מא אמט ולתיעם אאוגו.",
+              "sum": {
+                "value": 1958,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "הפקדות",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "הפקדות",
+              "subTitle": null,
+              "sum": {
+                "value": 14528,
+                "currency": "₪"
+              }
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "updateDate": "27.01.2025",
+          "list": [
+            {
+              "title": "יתרה לתחילת שנה",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "יתרה לתאריך 31.05.2025",
+              "subTitle": null,
+              "sum": {
+                "value": 5701,
+                "currency": "₪"
+              }
+            },
+            {
+              "title": "רווחים",
+              "subTitle": null,
+              "sum": null
+            },
+            {
+              "title": "הפקדות",
+              "subTitle": "למטכין גולר אפאח לכנו.",
+              "sum": {
+                "value": 9046,
+                "currency": "₪"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "deposits": {
+      "dailyDeposits": {
+        "list": []
+      },
+      "yearlyDeposits": {
+        "list": [
+          {
+            "year": "2025",
+            "updateDate": "27.01.2025",
+            "list": []
+          },
+          {
+            "year": "2024",
+            "updateDate": "27.01.2025",
+            "list": []
+          },
+          {
+            "year": "2023",
+            "updateDate": "27.01.2025",
+            "list": []
+          },
+          {
+            "year": "2022",
+            "updateDate": "27.01.2025",
+            "list": []
+          }
+        ]
+      }
+    },
+    "managementFee": {
+      "percentageMngFee": {
+        "updateDate": "27.01.25",
+        "fromDeposit": {
+          "percentageData": {
+            "value": 0,
+            "sign": "%"
+          }
+        },
+        "fromSaving": {
+          "percentageData": {
+            "value": 1.05,
+            "sign": "%"
+          }
+        }
+      },
+      "updatedMngFee": {
+        "updateDate": "27.01.2025",
+        "fromDeposit": {
+          "percentageData": {
+            "value": 0,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "dateFrom": "",
+                "dateTo": ""
+              }
+            ]
+          }
+        },
+        "fromSaving": {
+          "percentageData": {
+            "value": 1.05,
+            "sign": "%"
+          },
+          "popupData": {
+            "list": [
+              {
+                "fromSaving": {
+                  "value": 1.05,
+                  "sign": "%"
+                },
+                "dateFrom": "",
+                "dateTo": ""
+              }
+            ]
+          }
+        }
+      }
+    },
+    "yearCostPrediction": {
+      "updateDate": "27.01.25",
+      "list": [
+        {
+          "title": "הפניקס גמל לבני 50 ומטה",
+          "savingFee": null,
+          "depositFee": null,
+          "expenseCommission": {
+            "value": 0.28,
+            "sign": "%"
+          },
+          "expenseNonCommission": {
+            "value": 0.09,
+            "sign": "%"
+          },
+          "yearCostPrediction": null
+        }
+      ]
+    },
+    "investmentRoutesTransferConcentration": {
+      "investmentRoutes": {
+        "updateDate": "27.01.2025",
+        "list": [
+          {
+            "yieldPercentage": {
+              "value": 2.72,
+              "sign": "%"
+            },
+            "investmentRouteTitle": "הפניקס גמל לבני 60 ומעלה",
+            "investmentSum": {
+              "value": 11294.32,
+              "currency": "₪"
+            },
+            "updateDate": "27.01.2025",
+            "tsuotLastUpdateDate": "2025-04-30T21:00:00.000+00:00",
+            "periodicRoute": null,
+            "isExistRoute": true,
+            "investmentPercent": {
+              "value": 100,
+              "sign": "%"
+            },
+            "dailyYieldUpdateDate": "27.01.2025"
+          }
+        ],
+        "transferConcentration": {
+          "list": [],
+          "updatedAt": ""
+        }
+      }
+    },
+    "expectedPayments": {
+      "updateDate": "27.01.2025",
+      "list": [
+        {
+          "title": "סכום למקרה מוות",
+          "subTitle": "תרבנך סת דס קולהע קוויז להאמית.",
+          "sum": {
+            "value": 19930,
+            "currency": "₪"
+          }
+        },
+        {
+          "title": "סכום למשיכה חד פעמית",
+          "subTitle": "איבן קלאצי ערששף בלינדו עמחליף.",
+          "sum": {
+            "value": 13940,
+            "currency": "₪"
+          }
+        }
+      ]
+    },
+    "beneficiaries": {
+      "list": [
+        {
+          "name": "רועי לוי",
+          "date": "27.01.2025"
+        }
+      ],
+      "updatedAt": ""
+    }
+  },
+  "status": 200,
+  "insurance_type": "ExcellenceSavingByNumResponse"
+}

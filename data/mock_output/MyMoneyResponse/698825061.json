@@ -1,0 +1,206 @@
+{
+  "status": 200,
+  "message": "OK",
+  "transId": "string",
+  "entity": "MyMoneyResponse",
+  "response": null,
+  "topHeader": {
+    "sumSaving": {
+      "value": 1558292,
+      "currency": "₪"
+    },
+    "numSavingChannel": 2,
+    "monthChange": {
+      "value": -4.69,
+      "sign": "%"
+    },
+    "sumMonthChange": {
+      "value": -73093.34,
+      "currency": "₪"
+    },
+    "accumulateChange": {
+      "value": -27780.39,
+      "currency": "₪"
+    }
+  },
+  "mainHeader": {
+    "date": "10.04.2025",
+    "totalSaving": {
+      "value": 1021247,
+      "currency": "₪"
+    },
+    "fluentWithdraw": {
+      "value": 315365,
+      "currency": "₪"
+    },
+    "expectedForRetirement": {
+      "value": 39775,
+      "currency": "₪"
+    },
+    "savingExpectedForRetirement": null
+  },
+  "accumulationByProduct": {
+    "list": []
+  },
+  "productList": {
+    "list": [
+      {
+        "policyType": "gemelInvestment",
+        "policyList": [
+          {
+            "policyId": "001-732-959326 (2803397)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": "MASHLIMA",
+            "status": {
+              "status": 1,
+              "statusDesc": "לא פעילה"
+            },
+            "updateTo": "28.01.2025",
+            "dailyUpdateTo": null,
+            "yieldUpdateDate": null,
+            "dailyYieldUpdateDate": "",
+            "hasProfitsShare": null,
+            "productData": {
+              "savingSum": {
+                "value": 105688,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": null,
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 99612,
+                "currency": "₪"
+              },
+              "withdrawDate": "13.05.2025",
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 1.318018402637799,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.129316714140126,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [],
+            "tsuotPopup": null,
+            "isNew": false,
+            "isIndependent": false
+          }
+        ]
+      },
+      {
+        "policyType": "klasi",
+        "policyList": [
+          {
+            "policyId": "007-265-711032 (5523440)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": null,
+            "status": {
+              "status": 2,
+              "statusDesc": "פעילה"
+            },
+            "updateTo": "07.02.2025",
+            "dailyUpdateTo": null,
+            "yieldUpdateDate": "07.02.25",
+            "dailyYieldUpdateDate": "07.02.2025",
+            "hasProfitsShare": true,
+            "productData": {
+              "savingSum": {
+                "value": 62502,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": null,
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 47227,
+                "currency": "₪"
+              },
+              "withdrawDate": null,
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.6819353663214666,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [],
+            "tsuotPopup": null,
+            "isNew": false,
+            "isIndependent": null
+          }
+        ]
+      },
+      {
+        "policyType": "gemelInvestment",
+        "policyList": [
+          {
+            "policyId": "570-374-179899 (4145172)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": null,
+            "status": {
+              "status": 2,
+              "statusDesc": "פעילה"
+            },
+            "updateTo": "30.01.2025",
+            "dailyUpdateTo": null,
+            "yieldUpdateDate": "30.01.25",
+            "dailyYieldUpdateDate": "30.01.2025",
+            "hasProfitsShare": true,
+            "productData": {
+              "savingSum": {
+                "value": 354877,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": {
+                "lastDepositsSum": {
+                  "value": 3282,
+                  "currency": "₪"
+                },
+                "lastDepositsDate": "20.02.2025"
+              },
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 303180,
+                "currency": "₪"
+              },
+              "withdrawDate": "20.02.2025",
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.678171876231751,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [],
+            "tsuotPopup": null,
+            "isNew": false,
+            "isIndependent": null
+          }
+        ]
+      }
+    ]
+  },
+  "lastActions": {
+    "list": []
+  },
+  "insurance_type": "MyMoneyResponse"
+}

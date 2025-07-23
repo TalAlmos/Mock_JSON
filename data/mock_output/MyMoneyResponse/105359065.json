@@ -1,0 +1,190 @@
+{
+  "status": 200,
+  "message": "OK",
+  "transId": "string",
+  "entity": "MyMoneyResponse",
+  "response": null,
+  "topHeader": {
+    "sumSaving": {
+      "value": 676545,
+      "currency": "₪"
+    },
+    "numSavingChannel": 3,
+    "monthChange": {
+      "value": 4.17,
+      "sign": "%"
+    },
+    "sumMonthChange": {
+      "value": 28212.64,
+      "currency": "₪"
+    },
+    "accumulateChange": {
+      "value": 11115.63,
+      "currency": "₪"
+    }
+  },
+  "mainHeader": {
+    "date": "02.04.2025",
+    "totalSaving": {
+      "value": 741280,
+      "currency": "₪"
+    },
+    "fluentWithdraw": null,
+    "expectedForRetirement": null,
+    "savingExpectedForRetirement": null
+  },
+  "accumulationByProduct": {
+    "list": [
+      {
+        "policyType": "hishtalmut",
+        "savingSum": {
+          "value": 157572,
+          "currency": "₪"
+        },
+        "fluentSum": {
+          "value": 9321,
+          "currency": "₪"
+        },
+        "eligibilityDate": "",
+        "expectedForRetirement": null,
+        "notUsedForRetirement": true,
+        "policyIds": [
+          "007-330-867461 (4279487)"
+        ],
+        "updateDate": "24.05.25"
+      }
+    ]
+  },
+  "productList": {
+    "list": [
+      {
+        "policyType": "klasi",
+        "policyList": [
+          {
+            "policyId": "001-902-417617 (9401941)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": "MAKIFA",
+            "status": {
+              "status": 2,
+              "statusDesc": "פעילה"
+            },
+            "updateTo": "24.04.2025",
+            "dailyUpdateTo": "24.04.2025",
+            "yieldUpdateDate": "24.04.25",
+            "dailyYieldUpdateDate": "",
+            "hasProfitsShare": true,
+            "productData": {
+              "savingSum": {
+                "value": 231159,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": null,
+              "depositedThisYear": null,
+              "availableWithdraw": null,
+              "withdrawDate": "12.03.2025",
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 1.0296034427266056,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.11844541204946393,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [],
+            "tsuotPopup": null,
+            "isNew": true,
+            "isIndependent": true
+          }
+        ]
+      },
+      {
+        "policyType": "hishtalmut",
+        "policyList": [
+          {
+            "policyId": "570-210-628344 (6115615)",
+            "originalPolicyName": null,
+            "policyNickname": null,
+            "subType": null,
+            "status": {
+              "status": 1,
+              "statusDesc": "לא פעילה"
+            },
+            "updateTo": "26.01.2025",
+            "dailyUpdateTo": null,
+            "yieldUpdateDate": "26.01.25",
+            "dailyYieldUpdateDate": "26.01.2025",
+            "hasProfitsShare": true,
+            "productData": {
+              "savingSum": {
+                "value": 142518,
+                "currency": "₪"
+              },
+              "yieldBeginningYear": null,
+              "lastDeposit": null,
+              "depositedThisYear": null,
+              "availableWithdraw": {
+                "value": 139232,
+                "currency": "₪"
+              },
+              "withdrawDate": null,
+              "managementFee": {
+                "fromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "fromSaving": {
+                  "value": 0.562997437474023,
+                  "sign": "%"
+                }
+              },
+              "yieldFromYearBeginningTotal": null
+            },
+            "investmentRoutes": [
+              {
+                "name": "הפניקס גמל להשקעה עוקב מדד S&P500",
+                "joinDate": null,
+                "percent": {
+                  "value": 100,
+                  "sign": "%"
+                },
+                "yieldBeginningYear": {
+                  "value": 3.66,
+                  "sign": "%"
+                },
+                "yieldBeginningPolicy": null,
+                "managementFeeFromDeposit": {
+                  "value": 0,
+                  "sign": "%"
+                },
+                "managementFeeFromSaving": {
+                  "value": 0.6901474473267708,
+                  "sign": "%"
+                },
+                "accumulation": {
+                  "value": 142518,
+                  "currency": "₪"
+                },
+                "basketCode": "5807",
+                "isYieldHidden": true,
+                "dailyUpdateDate": "03.07.2025"
+              }
+            ],
+            "tsuotPopup": null,
+            "isNew": false,
+            "isIndependent": false
+          }
+        ]
+      }
+    ]
+  },
+  "lastActions": {
+    "list": []
+  },
+  "insurance_type": "MyMoneyResponse"
+}

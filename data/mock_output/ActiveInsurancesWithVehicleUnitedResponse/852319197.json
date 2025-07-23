@@ -1,0 +1,151 @@
+{
+  "vehicleUnitedDetail": {
+    "insuranceDetails": {
+      "updatedAt": "20.03.25",
+      "startDate": "20.03.25",
+      "endDate": "19.03.26",
+      "originalEndDate": "2026-03-19T00:00:00",
+      "originalStartDate": "2025-03-20T00:00:00",
+      "premia": {
+        "value": 1303,
+        "currency": "₪"
+      },
+      "list": [
+        {
+          "requiredRenewal": true,
+          "startDate": "20.03.25",
+          "endDate": "19.03.26",
+          "policySubType": "makif",
+          "premia": {
+            "currency": "₪",
+            "value": 5958
+          },
+          "claimsList": [
+            {
+              "claimNo": "2173491467",
+              "submissionDate": "20.03.25"
+            }
+          ]
+        }
+      ]
+    },
+    "payments": {
+      "payedSum": {
+        "value": 2108,
+        "currency": "₪"
+      },
+      "balanceSum": {
+        "value": 2939,
+        "currency": "₪"
+      },
+      "payedList": {
+        "list": [
+          {
+            "date": "20/03/2025",
+            "method": "ויזה כ.א.ל 2666",
+            "paymentType": "חיוב",
+            "amount": {
+              "value": 494,
+              "currency": "₪"
+            },
+            "details": [
+              {
+                "paymentNo": null,
+                "date": "20/03/2025",
+                "method": "אשראי 9380",
+                "totalPayments": "",
+                "policySubType": "hova",
+                "amount": {
+                  "value": 673,
+                  "currency": "₪"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "agentDetails": [
+      {
+        "name": "הראל ביטוח",
+        "address": "משה דיין 05, בית חנן 68561",
+        "phone": "0758844482"
+      }
+    ],
+    "authorizedDrivers": [
+      {
+        "firstName": "אוריה",
+        "lastName": "ביטון"
+      },
+      {
+        "firstName": "יצחק",
+        "lastName": "שוויקי"
+      }
+    ],
+    "serviceList": [
+      {
+        "type": "גרירה",
+        "name": "שגריר",
+        "phone": "*8888",
+        "eSite": null
+      },
+      {
+        "type": "שמשות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      },
+      {
+        "type": "פנסים ומראות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      }
+    ],
+    "treatmentSubjects": [],
+    "licenseEndDate": "19.03.26",
+    "youngerDriverAge": "39"
+  },
+  "insuranceType": "קולקטיב - ביטוח בריאות קבוצתי לבני משפחתם של עובדי טר\"מ",
+  "modelType": "יונדאי 35IXPRIME",
+  "licensePlate": "27523205",
+  "isExpired": true,
+  "isActive": true,
+  "list": [
+    {
+      "policyId": "POL-764314",
+      "insuranceType": "",
+      "policyName": "ביטוח חובה לרכב פרטי",
+      "endDate": "19.03.2026",
+      "startDate": "20.03.2025",
+      "modelType": "יונדאי 35IXPRIME",
+      "licensePlate": "27523205",
+      "classification": "עסקי",
+      "carPolicyType": "gimel",
+      "isExpired": true,
+      "isActive": true,
+      "sectorId": "278",
+      "validityTime": "20.03.2025",
+      "isSmart": true,
+      "AgentNumber": 81790
+    },
+    {
+      "policyId": "POL-627496",
+      "insuranceType": "ביטוח צד ג' ללא ביטול הש",
+      "policyName": "ביטוח חובה לרכב פרטי",
+      "endDate": "19.03.2026",
+      "startDate": "20.03.2025",
+      "modelType": "יונדאי 35IXPRIME",
+      "licensePlate": "27523205",
+      "classification": "אישי",
+      "carPolicyType": "gimel",
+      "isExpired": false,
+      "isActive": true,
+      "sectorId": "795",
+      "validityTime": "20.03.2025",
+      "isSmart": false,
+      "AgentNumber": 85169
+    }
+  ],
+  "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+}

@@ -1,0 +1,151 @@
+{
+  "vehicleUnitedDetail": {
+    "insuranceDetails": {
+      "updatedAt": "20.06.25",
+      "startDate": "20.06.25",
+      "endDate": "19.06.26",
+      "originalEndDate": "2026-06-19T00:00:00",
+      "originalStartDate": "2025-06-20T00:00:00",
+      "premia": {
+        "value": 7205,
+        "currency": "₪"
+      },
+      "list": [
+        {
+          "requiredRenewal": true,
+          "startDate": "20.06.25",
+          "endDate": "19.06.26",
+          "policySubType": "hova",
+          "premia": {
+            "currency": "₪",
+            "value": 6418
+          },
+          "claimsList": [
+            {
+              "claimNo": "1637256404",
+              "submissionDate": "20.06.25"
+            }
+          ]
+        }
+      ]
+    },
+    "payments": {
+      "payedSum": {
+        "value": 7177,
+        "currency": "₪"
+      },
+      "balanceSum": {
+        "value": 646,
+        "currency": "₪"
+      },
+      "payedList": {
+        "list": [
+          {
+            "date": "20/06/2025",
+            "method": "אשראי 4832",
+            "paymentType": "חיוב",
+            "amount": {
+              "value": 172,
+              "currency": "₪"
+            },
+            "details": [
+              {
+                "paymentNo": null,
+                "date": "20/06/2025",
+                "method": "ויזה כ.א.ל 2666",
+                "totalPayments": "",
+                "policySubType": "hova",
+                "amount": {
+                  "value": 664,
+                  "currency": "₪"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "agentDetails": [
+      {
+        "name": "מגדל ביטוח",
+        "address": "שד ח\"ן 33, מלאה 31417",
+        "phone": "0747300617"
+      }
+    ],
+    "authorizedDrivers": [
+      {
+        "firstName": "תמר",
+        "lastName": "יהודה"
+      },
+      {
+        "firstName": "ינון",
+        "lastName": "כהן"
+      }
+    ],
+    "serviceList": [
+      {
+        "type": "גרירה",
+        "name": "שגריר",
+        "phone": "*8888",
+        "eSite": null
+      },
+      {
+        "type": "שמשות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      },
+      {
+        "type": "פנסים ומראות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      }
+    ],
+    "treatmentSubjects": [],
+    "licenseEndDate": "19.06.26",
+    "youngerDriverAge": "53"
+  },
+  "insuranceType": "פרט",
+  "modelType": "יונדאי ERIPSNI  30-I",
+  "licensePlate": "55839022",
+  "isExpired": false,
+  "isActive": false,
+  "list": [
+    {
+      "policyId": "POL-306314",
+      "insuranceType": "ביטוח חובה",
+      "policyName": "ביטוח חובה לרכב פרטי",
+      "endDate": "19.06.2026",
+      "startDate": "20.06.2025",
+      "modelType": "יונדאי ERIPSNI  30-I",
+      "licensePlate": "55839022",
+      "classification": "אישי",
+      "carPolicyType": "gimel",
+      "isExpired": false,
+      "isActive": true,
+      "sectorId": "725",
+      "validityTime": "20.06.2025",
+      "isSmart": true,
+      "AgentNumber": 15944
+    },
+    {
+      "policyId": "POL-104721",
+      "insuranceType": "ביטוח צד ג' ללא ביטול הש",
+      "policyName": "ביטוח חובה לרכב פרטי",
+      "endDate": "19.06.2026",
+      "startDate": "20.06.2025",
+      "modelType": "יונדאי ERIPSNI  30-I",
+      "licensePlate": "55839022",
+      "classification": "אישי",
+      "carPolicyType": "makif",
+      "isExpired": false,
+      "isActive": true,
+      "sectorId": "875",
+      "validityTime": "20.06.2025",
+      "isSmart": false,
+      "AgentNumber": 92536
+    }
+  ],
+  "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+}

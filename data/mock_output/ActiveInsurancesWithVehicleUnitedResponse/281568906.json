@@ -1,0 +1,163 @@
+{
+  "vehicleUnitedDetail": {
+    "insuranceDetails": {
+      "updatedAt": "11.02.25",
+      "startDate": "11.02.25",
+      "endDate": "10.02.26",
+      "originalEndDate": "2026-02-10T00:00:00",
+      "originalStartDate": "2025-02-11T00:00:00",
+      "premia": {
+        "value": 3710,
+        "currency": "₪"
+      },
+      "list": [
+        {
+          "requiredRenewal": true,
+          "startDate": "11.02.25",
+          "endDate": "10.02.26",
+          "policySubType": "hova",
+          "premia": {
+            "currency": "₪",
+            "value": 2412
+          },
+          "claimsList": []
+        }
+      ]
+    },
+    "payments": {
+      "payedSum": {
+        "value": 5935,
+        "currency": "₪"
+      },
+      "balanceSum": {
+        "value": 2276,
+        "currency": "₪"
+      },
+      "payedList": {
+        "list": [
+          {
+            "date": "11/02/2025",
+            "method": "אשראי 7659",
+            "paymentType": "חיוב",
+            "amount": {
+              "value": 216,
+              "currency": "₪"
+            },
+            "details": [
+              {
+                "paymentNo": null,
+                "date": "11/02/2025",
+                "method": "אשראי 2320",
+                "totalPayments": "",
+                "policySubType": "makif",
+                "amount": {
+                  "value": 226,
+                  "currency": "₪"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "agentDetails": [
+      {
+        "name": "הפניקס SMART",
+        "address": "דרך השלום 53 גבעתיים 53454",
+        "phone": "0778888888"
+      }
+    ],
+    "authorizedDrivers": [
+      {
+        "firstName": "אליאב",
+        "lastName": "ישראל"
+      },
+      {
+        "firstName": "שושנה",
+        "lastName": "שמיר"
+      }
+    ],
+    "serviceList": [
+      {
+        "type": "גרירה",
+        "name": "שגריר",
+        "phone": "*8888",
+        "eSite": null
+      },
+      {
+        "type": "שמשות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      },
+      {
+        "type": "פנסים ומראות",
+        "name": "אוטוגלס",
+        "phone": "03-6507777",
+        "eSite": null
+      }
+    ],
+    "treatmentSubjects": [],
+    "licenseEndDate": "10.02.26",
+    "youngerDriverAge": "28"
+  },
+  "insuranceType": "ביטוח מקיף",
+  "modelType": "טסלהY DWR",
+  "licensePlate": "98569150",
+  "isExpired": true,
+  "isActive": false,
+  "list": [
+    {
+      "policyId": "POL-291854",
+      "insuranceType": "זהיר מכירה דרך אינטרנט",
+      "policyName": "ביטוח לרכב פרטי",
+      "endDate": "10.02.2026",
+      "startDate": "11.02.2025",
+      "modelType": "טסלהY DWR",
+      "licensePlate": "98569150",
+      "classification": "אישי",
+      "carPolicyType": "gimel",
+      "isExpired": true,
+      "isActive": true,
+      "sectorId": "87",
+      "validityTime": "11.02.2025",
+      "isSmart": true,
+      "AgentNumber": 90527
+    },
+    {
+      "policyId": "POL-426124",
+      "insuranceType": "ביטוח מקיף",
+      "policyName": "ביטוח חובה לרכב פרטי",
+      "endDate": "10.02.2026",
+      "startDate": "11.02.2025",
+      "modelType": "טסלהY DWR",
+      "licensePlate": "98569150",
+      "classification": "אישי",
+      "carPolicyType": "gimel",
+      "isExpired": true,
+      "isActive": true,
+      "sectorId": "611",
+      "validityTime": "11.02.2025",
+      "isSmart": false,
+      "AgentNumber": 76682
+    },
+    {
+      "policyId": "POL-318638",
+      "insuranceType": "זהיר מכירה דרך אינטרנט",
+      "policyName": "ביטוח חובה לרכב פרטי",
+      "endDate": "10.02.2026",
+      "startDate": "11.02.2025",
+      "modelType": "טסלהY DWR",
+      "licensePlate": "98569150",
+      "classification": "משפחתי",
+      "carPolicyType": "hova",
+      "isExpired": false,
+      "isActive": true,
+      "sectorId": "47",
+      "validityTime": "11.02.2025",
+      "isSmart": true,
+      "AgentNumber": 73875
+    }
+  ],
+  "insurance_type": "ActiveInsurancesWithVehicleUnitedResponse"
+}
